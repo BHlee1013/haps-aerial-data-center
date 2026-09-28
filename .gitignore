@@ -1,0 +1,63 @@
+# ============================================================
+# MATLAB / Simulink temporary and generated files
+# ============================================================
+
+# Autosave / backup files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+*.bak
+
+# MATLAB protected files
+*.p
+
+# Compiled MEX files
+*.mex*
+
+# Packaged apps/toolboxes
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated folders
+slprj/
+sccprj/
+codegen/
+helpsearch*/
+
+# Simulink cache
+*.slxc
+
+# MATLAB Drive metadata
+.MATLABDriveTag
+
+
+# ============================================================
+# Operating system / editor files
+# ============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ============================================================
+# Project-specific exclusions
+# ============================================================
+
+# Raw external datasets
+data/raw/
+
+# Temporary files
+temp/
+tmp/
+
+# Log files
+*.log
