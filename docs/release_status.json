@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "prepared_date": "2026-09-30",
+  "status": "Ready for public GitHub v1.0.0 release; Zenodo DOI pending archival",
+  "computational_baseline": "1.0.0-rc2 validated source",
+  "existing_computation_modified_after_rc2_validation": false,
+  "author_matlab_release": "R2025b",
+  "final_stage2_validation": {
+    "run": "stage2_validation_20260930_182826_330",
+    "passed": true,
+    "figures_requested": true,
+    "code_analyzer_messages": 1,
+    "code_analyzer_message_scope": "style-only recommendation in test_workload_helpers.m",
+    "stage2_checks": 41,
+    "release_checks": 36,
+    "serving_comparisons": 200,
+    "thermal_simulated_in_this_run": false,
+    "monte_carlo_run_in_this_run": false,
+    "raw_trace_processed_in_this_run": false
+  },
+  "raw_workload_validation": {
+    "run": "workload_20260930_182242_310",
+    "input_sha256": "2299986a07388aa303ec2c41d1131e756db650a39ed6ef9dfe7cc3d7f9a43b8f",
+    "raw_rows": 5344021,
+    "numeric_clean_rows": 2161220,
+    "missing_session_after_cleaning": 1962110,
+    "pairing_eligible_rows": 199110,
+    "consecutive_session_pairs_before_tau": 146682,
+    "tau1800_pairs": 127205,
+    "day_blocks": 110,
+    "bootstrap_replicates": 1000,
+    "seed": 1,
+    "pk_reference_reproduced": true,
+    "alpha_reference_reproduced": true,
+    "supp_table1_bootstrap_reproduced": true,
+    "supp_table2_tau_sensitivity_reproduced": true
+  },
+  "supplementary_table6_validation": {
+    "passed": true,
+    "ua_ext_W_K": [
+      300,
+      350,
+      400,
+      500,
+      600,
+      750,
+      1000
+    ],
+    "source_archive_preserved": true,
+    "best_by_ua_matches_84_case_c2_summary": true
+  },
+  "figure5d_correction": {
+    "passed": true,
+    "normalization_IT_W": 1275,
+    "fan_W": 10.0081045947057,
+    "panel": "figures/manuscript/panels/Fig5d.pdf",
+    "composite": "figures/manuscript/main/Fig5.pdf"
+  },
+  "thermal_runtime_evidence": {
+    "author_thermal_reference_smoke_passed": true,
+    "rpm_points": [
+      2650,
+      2675
+    ],
+    "model_duration_s": 5000,
+    "full_map_rerun_evidence": false
+  },
+  "full_exact_search_rerun_evidence": false,
+  "author_mc_rerun_evidence": false,
+  "repository_code": "https://github.com/BHlee1013/haps-aerial-data-center",
+  "repository_status_verified": false,
+  "zenodo_doi": null,
+  "software_license": "MIT",
+  "data_license": "CC-BY-4.0 for author-generated processed/result data; third-party exceptions apply",
+  "figure_license": "CC-BY-4.0",
+  "documentation_license": "CC-BY-4.0",
+  "figure_redistribution_approved": true,
+  "author_rights_statement": "Byeongheon Lee confirms sole creation/rights for repository code and supplied manuscript figures/artwork.",
+  "publication_ready": true,
+  "publication_gates": [
+    {
+      "id": "software_license",
+      "status": "approved",
+      "detail": "MIT License approved for software and Simscape models."
+    },
+    {
+      "id": "figure_data_documentation_license",
+      "status": "approved",
+      "detail": "CC BY 4.0 approved for author-created figures, documentation and author-generated processed/result data, subject to third-party exceptions."
+    },
+    {
+      "id": "raw_workload_regression",
+      "status": "passed",
+      "detail": "Original BurstGPT CSV reproduced 127,205 tau=1800 pairs and packaged full-precision p_k/alpha_k."
+    },
+    {
+      "id": "raw_bootstrap",
+      "status": "passed",
+      "detail": "1000 day-level bootstrap replicates with seed 1 reproduced Supplementary Table 1 intervals and tau sensitivity."
+    },
+    {
+      "id": "supp_table6_scope",
+      "status": "passed",
+      "detail": "Exactly seven manuscript UA_ext rows exported and matched to archived C2 minima."
+    },
+    {
+      "id": "figure5d_artwork",
+      "status": "passed",
+      "detail": "Corrected 1.275-kW Fig. 5d panel and assembled Fig. 5 included."
+    },
+    {
+      "id": "final_reference_validation",
+      "status": "passed",
+      "detail": "Figure-enabled final Stage-2 reference validation passed 41 structural/unit, 36 release and 200 serving comparisons."
+    },
+    {
+      "id": "github_release",
+      "status": "ready",
+      "detail": "Create public tag/release v1.0.0 from this package after local integrity verification."
+    },
+    {
+      "id": "archive_identity",
+      "status": "pending_release",
+      "detail": "Zenodo DOI will be assigned after the public GitHub v1.0.0 release is archived."
+    }
+  ],
+  "provenance_complete": false,
+  "provenance_limitations_disclosed": true,
+  "raw_burstgpt_identity_verified_by_hash": true,
+  "validation_evidence_files": 237,
+  "frozen_computational_files": 167,
+  "manuscript_figure_assets": 29,
+  "final_build_audit_checks": 35,
+  "final_build_audit_passed": true,
+  "package_files_checked_by_integrity_verifier": 504,
+  "manuscript_pdf_distributed": false,
+  "manuscript_pdf_note": "The manuscript PDF is intentionally not distributed because the manuscript may continue to change; validated figure assets and numerical reproduction materials remain included."
+}

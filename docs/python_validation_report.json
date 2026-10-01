@@ -1,0 +1,2664 @@
+{
+  "scope": "Independent Python arithmetic and static-file checks. MATLAB and Simscape were NOT executed.",
+  "passed": true,
+  "checks_passed": 531,
+  "checks_total": 531,
+  "error": null,
+  "checks": [
+    {
+      "check": "normalized_workload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "current_single_N95",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "a100_full_mix_infeasible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "serving_efficiency",
+      "passed": true,
+      "detail": "max_abs_error=4.775e-12"
+    },
+    {
+      "check": "single_adjacent_crossings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "allocation_monotonic",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "allocation_totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "stored_Nk_0",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "harmonic_0",
+      "passed": true,
+      "detail": "max_abs_error=1.273e-11"
+    },
+    {
+      "check": "stored_Nk_1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "harmonic_1",
+      "passed": true,
+      "detail": "max_abs_error=1.819e-12"
+    },
+    {
+      "check": "stored_Nk_2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "harmonic_2",
+      "passed": true,
+      "detail": "max_abs_error=1.819e-12"
+    },
+    {
+      "check": "stored_Nk_3",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "harmonic_3",
+      "passed": true,
+      "detail": "max_abs_error=9.095e-13"
+    },
+    {
+      "check": "stored_Nk_4",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "harmonic_4",
+      "passed": true,
+      "detail": "max_abs_error=9.095e-13"
+    },
+    {
+      "check": "stored_Nk_5",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "harmonic_5",
+      "passed": true,
+      "detail": "max_abs_error=7.276e-12"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH100_fp8_TP1_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH100_fp8_TP1_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH100_fp8_TP1_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH100_fp8_TP1_B",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH100_fp8_TP1_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH100_fp8_TP1_C",
+      "passed": true,
+      "detail": "max_abs_error=1.99e-13"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH100_fp8_TP1_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH100_fp8_TP1_D",
+      "passed": true,
+      "detail": "max_abs_error=4.263e-13"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH100_fp8_TP1_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH100_fp8_TP1_E",
+      "passed": true,
+      "detail": "max_abs_error=3.197e-14"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH200_fp8_TP1_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH200_fp8_TP1_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH200_fp8_TP1_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH200_fp8_TP1_B",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-14"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH200_fp8_TP1_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH200_fp8_TP1_C",
+      "passed": true,
+      "detail": "max_abs_error=3.979e-13"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH200_fp8_TP1_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH200_fp8_TP1_D",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xH200_fp8_TP1_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xH200_fp8_TP1_E",
+      "passed": true,
+      "detail": "max_abs_error=3.197e-14"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xL40S_fp8_TP1_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xL40S_fp8_TP1_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xL40S_fp8_TP1_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xL40S_fp8_TP1_B",
+      "passed": true,
+      "detail": "max_abs_error=3.126e-13"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xL40S_fp8_TP1_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xL40S_fp8_TP1_C",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xL40S_fp8_TP1_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xL40S_fp8_TP1_D",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-14"
+    },
+    {
+      "check": "benchmark_unique_llama31_8b_1xL40S_fp8_TP1_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama31_8b_1xL40S_fp8_TP1_E",
+      "passed": true,
+      "detail": "max_abs_error=4.441e-15"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH100_fp8_TP2_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH100_fp8_TP2_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH100_fp8_TP2_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH100_fp8_TP2_B",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-14"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH100_fp8_TP2_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH100_fp8_TP2_C",
+      "passed": true,
+      "detail": "max_abs_error=3.979e-13"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH100_fp8_TP2_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH100_fp8_TP2_D",
+      "passed": true,
+      "detail": "max_abs_error=4.974e-14"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH100_fp8_TP2_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH100_fp8_TP2_E",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-15"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH200_fp8_TP2_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH200_fp8_TP2_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH200_fp8_TP2_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH200_fp8_TP2_B",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH200_fp8_TP2_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH200_fp8_TP2_C",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH200_fp8_TP2_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH200_fp8_TP2_D",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-15"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_2xH200_fp8_TP2_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_2xH200_fp8_TP2_E",
+      "passed": true,
+      "detail": "max_abs_error=2.442e-15"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_4xH100_fp8_TP4_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_4xH100_fp8_TP4_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_4xH100_fp8_TP4_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_4xH100_fp8_TP4_B",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_4xH100_fp8_TP4_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_4xH100_fp8_TP4_C",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_4xH100_fp8_TP4_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_4xH100_fp8_TP4_D",
+      "passed": true,
+      "detail": "max_abs_error=5.116e-13"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_4xH100_fp8_TP4_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_4xH100_fp8_TP4_E",
+      "passed": true,
+      "detail": "max_abs_error=2.665e-15"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_8xA100_bf16_TP8_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_8xA100_bf16_TP8_A",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_8xA100_bf16_TP8_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_8xA100_bf16_TP8_B",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_8xA100_bf16_TP8_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_8xA100_bf16_TP8_C",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_8xA100_bf16_TP8_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_8xA100_bf16_TP8_D",
+      "passed": true,
+      "detail": "max_abs_error=4.263e-14"
+    },
+    {
+      "check": "benchmark_unique_llama33_70b_8xA100_bf16_TP8_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmax_llama33_70b_8xA100_bf16_TP8_E",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_downlink_rates.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_downlink_rates.csv_model_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_downlink_rates.csv_SLO_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_downlink_rates.csv_N_95",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_reliability_threshold",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_bytes_per_token",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_itl_ms",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_token_rate_tps",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_overhead_factor",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_mean_active_users",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_mean_active_users_theory",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_std_active_users",
+      "passed": true,
+      "detail": "max_abs_error=1.776e-15"
+    },
+    {
+      "check": "communication_downlink_rates.csv_p50_active_users",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_p95_active_users",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_p99_active_users",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_payload_rate_mean_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=6.939e-17"
+    },
+    {
+      "check": "communication_downlink_rates.csv_design_rate_mean_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=8.327e-17"
+    },
+    {
+      "check": "communication_downlink_rates.csv_payload_rate_p50_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=9.888e-17"
+    },
+    {
+      "check": "communication_downlink_rates.csv_design_rate_p50_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_downlink_rates.csv_payload_rate_p95_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=9.714e-17"
+    },
+    {
+      "check": "communication_downlink_rates.csv_design_rate_p95_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=9.714e-17"
+    },
+    {
+      "check": "communication_downlink_rates.csv_payload_rate_p99_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=1.006e-16"
+    },
+    {
+      "check": "communication_downlink_rates.csv_design_rate_p99_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=9.714e-17"
+    },
+    {
+      "check": "communication_downlink_rates.csv_all_registered_active_design_rate_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=1.776e-15"
+    },
+    {
+      "check": "communication_active_user_pmf.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_active_user_pmf.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_active_user_pmf.csv_model_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_active_user_pmf.csv_SLO_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_active_user_pmf.csv_active_users",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_active_user_pmf.csv_probability",
+      "passed": true,
+      "detail": "max_abs_error=9.986e-17"
+    },
+    {
+      "check": "communication_active_user_pmf.csv_cdf",
+      "passed": true,
+      "detail": "max_abs_error=2.22e-16"
+    },
+    {
+      "check": "communication_input_audit.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_input_audit.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_input_audit.csv_SLO_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_input_audit.csv_N95_from_capacity",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_sum_registered_mix_N95",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_max_abs_alpha_diff_vs_Fig2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_max_abs_pk_diff_vs_Fig2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_mean_active_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_mean_active_theory",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_mean_active_abs_diff",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_input_audit.csv_population_source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_input_audit.csv_population_method",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_scenarios.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_scenarios.csv_link_scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_scenarios.csv_scenario_class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_scenarios.csv_implementation_gap_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_scenarios.csv_snr_floor_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_scenarios.csv_scenario_note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_model_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_SLO_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_bytes_per_token",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_rate_stat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_active_users_for_rate_stat",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_design_total_rate_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=1.776e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_bandwidth_MHz",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_required_SE_bphz",
+      "passed": true,
+      "detail": "max_abs_error=9.888e-17"
+    },
+    {
+      "check": "communication_link_budget.csv_link_scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_scenario_class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_link_budget.csv_shannon_SNR_dB",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_implementation_gap_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_snr_floor_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_unfloored_required_SNR_dB",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_used_required_SNR_dB",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_snr_floor_active",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_carrier_GHz",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_haps_altitude_km",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_slant_distance_km",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_approx_horizontal_radius_km",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_approx_elevation_deg",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_FSPL_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_noise_dBm",
+      "passed": true,
+      "detail": "max_abs_error=1.421e-14"
+    },
+    {
+      "check": "communication_link_budget.csv_haps_antenna_gain_dBi",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_ue_antenna_gain_dBi",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_misc_loss_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_link_margin_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_link_budget.csv_required_payload_Rx_dBm",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-14"
+    },
+    {
+      "check": "communication_link_budget.csv_payload_bearing_radiated_Tx_dBm",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "communication_link_budget.csv_payload_bearing_radiated_Tx_W",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-16"
+    },
+    {
+      "check": "communication_link_budget.csv_Tx_interpretation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_model_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_SLO_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_bytes_per_token",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_rate_stat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_design_total_rate_Mbps",
+      "passed": true,
+      "detail": "max_abs_error=9.714e-17"
+    },
+    {
+      "check": "communication_radio_power.csv_link_scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_scenario_class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_used_required_SNR_dB",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "communication_radio_power.csv_slant_distance_km",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_payload_bearing_radiated_Tx_W",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_earth_bs_type",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_circuit_scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_analysis_NTRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_native_EARTH_NTRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_is_native_EARTH_NTRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_earth_reference_year",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_earth_reference_bandwidth_MHz",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_analysis_bandwidth_MHz",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_RF_reference_Pdc_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_BB_reference_Pdc_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_RF_used_Pdc_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_BB_used_Pdc_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_PA_efficiency_reference",
+      "passed": true,
+      "detail": "max_abs_error=9.714e-17"
+    },
+    {
+      "check": "communication_radio_power.csv_payload_Tx_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_PA_DC_dynamic_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=8.882e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_PA_DC_dynamic_total_W",
+      "passed": true,
+      "detail": "max_abs_error=8.882e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_DCDC_loss_fraction",
+      "passed": true,
+      "detail": "max_abs_error=9.714e-17"
+    },
+    {
+      "check": "communication_radio_power.csv_fixed_RF_BB_before_DCDC_W_total",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-14"
+    },
+    {
+      "check": "communication_radio_power.csv_fixed_RF_BB_after_DCDC_W_total",
+      "passed": true,
+      "detail": "max_abs_error=1.421e-14"
+    },
+    {
+      "check": "communication_radio_power.csv_PA_after_DCDC_W_total",
+      "passed": true,
+      "detail": "max_abs_error=1.776e-15"
+    },
+    {
+      "check": "communication_radio_power.csv_P_comm_W",
+      "passed": true,
+      "detail": "max_abs_error=5.684e-14"
+    },
+    {
+      "check": "communication_radio_power.csv_fixed_power_fraction",
+      "passed": true,
+      "detail": "max_abs_error=2.22e-16"
+    },
+    {
+      "check": "communication_radio_power.csv_Pmax_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_payload_Tx_within_per_TRX_Pmax",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_payload_Tx_within_total_node_Pmax",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_payload_Tx_headroom_dB_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-15"
+    },
+    {
+      "check": "communication_radio_power.csv_EARTH_cooling_excluded",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_EARTH_main_supply_excluded",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_radio_power.csv_PA_model_note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_radio_power.csv_communication_power_interpretation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_model_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_SLO_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_bytes_per_token",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_rate_stat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_link_scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_scenario_class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_used_required_SNR_dB",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_slant_distance_km",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_payload_bearing_radiated_Tx_W",
+      "passed": true,
+      "detail": "max_abs_error=1.998e-16"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_earth_bs_type",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_circuit_scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_analysis_NTRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_native_EARTH_NTRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_is_native_EARTH_NTRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_fixed_power_fraction",
+      "passed": true,
+      "detail": "max_abs_error=3.331e-16"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_Pmax_W_per_TRX",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_payload_Tx_within_per_TRX_Pmax",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_payload_Tx_within_total_node_Pmax",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_IT_power_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_fan_power_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_fan_power_source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_communication_power_W",
+      "passed": true,
+      "detail": "max_abs_error=8.527e-14"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_HAPS_auxiliary_power_W",
+      "passed": true,
+      "detail": "max_abs_error=8.527e-14"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_break_even_ground_cooling_ratio",
+      "passed": true,
+      "detail": "max_abs_error=1.978e-16"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_break_even_ground_cooling_percent",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-15"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_ground_cooling_ratio",
+      "passed": true,
+      "detail": "max_abs_error=1.665e-16"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_ground_cooling_power_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_break_even_communication_power_W",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-15"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_parity_margin_W",
+      "passed": true,
+      "detail": "max_abs_error=1.137e-13"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_HAPS_aux_lower_than_ground_cooling",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_traffic_reference_model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_normalization_reference_model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "communication_auxiliary_parity.csv_normalization_IT_power_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_display_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_SLO_feasible",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_IT_power_kW",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_engineering_mass_kg",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_exact_registry_mass_kg",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_N95_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_serving_efficiency_user_eq_per_kW",
+      "passed": true,
+      "detail": "max_abs_error=5.684e-14"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_Cmix",
+      "passed": true,
+      "detail": "max_abs_error=2.842e-14"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_Nharm",
+      "passed": true,
+      "detail": "max_abs_error=9.095e-13"
+    },
+    {
+      "check": "payload_configuration_efficiency.csv_N95_over_Nharm",
+      "passed": true,
+      "detail": "max_abs_error=5.551e-17"
+    },
+    {
+      "check": "payload_deployment_limits.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_deployment_limits.csv_platform",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_deployment_limits.csv_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_deployment_limits.csv_display_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_deployment_limits.csv_SLO_feasible",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_uncapped_mass_bound",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_uncapped_IT_power_bound",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_uncapped_aux_power_bound",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_host_gpu_cap",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_IT_only_instances",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_deployable_instances",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_binding_constraint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_deployment_limits.csv_deployed_mass_kg",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-15"
+    },
+    {
+      "check": "payload_deployment_limits.csv_deployed_IT_power_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_deployed_fan_power_W",
+      "passed": true,
+      "detail": "max_abs_error=1.776e-15"
+    },
+    {
+      "check": "payload_deployment_limits.csv_radio_reserve_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_total_payload_power_W",
+      "passed": true,
+      "detail": "max_abs_error=4.547e-13"
+    },
+    {
+      "check": "payload_deployment_limits.csv_linear_mN95_reference",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_NHAPS95_pooled_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_deployment_limits.csv_NHAPS95_static_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_shared_host_scaling.csv_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "payload_shared_host_scaling.csv_gpu_count",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_shared_host_scaling.csv_engineering_mass_kg",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "payload_shared_host_scaling.csv_IT_power_kW",
+      "passed": true,
+      "detail": "max_abs_error=4.441e-16"
+    },
+    {
+      "check": "payload_shared_host_scaling.csv_linear_mN95_reference",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "exact_activity_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=1.421e-13"
+    },
+    {
+      "check": "pmf_sum_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "pmf_nonnegative_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact_activity_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "pmf_sum_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "pmf_nonnegative_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig05d_rows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig05d_communication_power_W",
+      "passed": true,
+      "detail": "max_abs_error=4.263e-13"
+    },
+    {
+      "check": "fig05d_HAPS_auxiliary_power_W",
+      "passed": true,
+      "detail": "max_abs_error=7.105e-13"
+    },
+    {
+      "check": "fig05d_fan_power_W",
+      "passed": true,
+      "detail": "max_abs_error=8.882e-15"
+    },
+    {
+      "check": "fig05d_IT_power_W",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig05d_break_even_ground_cooling_percent",
+      "passed": true,
+      "detail": "max_abs_error=3.908e-14"
+    },
+    {
+      "check": "l40s_binding_cap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig06d_m_instances",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06d_single_N95_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06d_linear_mN95_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06d_NHAPS95_pooled_exact",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06d_pooled_gain_vs_linear_percent",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06e_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig06e_platform",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig06e_best_model_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig06e_best_display_label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig06e_best_exact_NHAPS95",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06e_target_user_equivalents",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fig06e_minimum_active_HAPS_count",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "fleet_ceiling",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "linear_reference_Sunglider_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Sunglider_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Sunglider_llama31_8b_1xH200_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Sunglider_llama31_8b_1xH200_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Sunglider_llama31_8b_1xL40S_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Sunglider_llama31_8b_1xL40S_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Stratobus_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Stratobus_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Stratobus_llama31_8b_1xH200_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Stratobus_llama31_8b_1xH200_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Stratobus_llama31_8b_1xL40S_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Stratobus_llama31_8b_1xL40S_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Stratobus_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Stratobus_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "linear_reference_Stratobus_llama33_70b_2xH200_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "platform_crossing_Stratobus_llama33_70b_2xH200_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_baseline_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_baseline_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_baseline_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_baseline_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_overlap_distance_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_overlap_distance_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_overlap_distance_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_overlap_distance_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_b_over_c_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_b_over_c_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_b_over_c_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_b_over_c_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_c_over_b_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_c_over_b_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_c_over_b_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_c_over_b_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_global_distance_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_global_distance_llama31_8b_1xH100_fp8_TP1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_inputs_global_distance_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "mapping_crossing_global_distance_llama33_70b_2xH100_fp8_TP2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "independent_seed_brackets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "8b_mc_count_probability",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "8b_mc_se",
+      "passed": true,
+      "detail": "max_abs_error=9.601e-17"
+    },
+    {
+      "check": "8b_mc_ci_low",
+      "passed": true,
+      "detail": "max_abs_error=4.857e-17"
+    },
+    {
+      "check": "8b_mc_ci_high",
+      "passed": true,
+      "detail": "max_abs_error=4.857e-17"
+    },
+    {
+      "check": "8b_mc_total_snapshots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "8b_mc_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "8b_seed_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "8b_independent_statistics",
+      "passed": true,
+      "detail": "max_abs_error=3.553e-15"
+    },
+    {
+      "check": "8b_probability_compatibility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "70b_mc_count_probability",
+      "passed": true,
+      "detail": "max_abs_error=0"
+    },
+    {
+      "check": "70b_mc_se",
+      "passed": true,
+      "detail": "max_abs_error=9.725e-17"
+    },
+    {
+      "check": "70b_mc_ci_low",
+      "passed": true,
+      "detail": "max_abs_error=4.857e-17"
+    },
+    {
+      "check": "70b_mc_ci_high",
+      "passed": true,
+      "detail": "max_abs_error=4.857e-17"
+    },
+    {
+      "check": "70b_mc_total_snapshots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "70b_mc_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "70b_seed_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "70b_independent_statistics",
+      "passed": true,
+      "detail": "max_abs_error=4.974e-14"
+    },
+    {
+      "check": "70b_probability_compatibility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact_engine_bruteforce",
+      "passed": true,
+      "detail": "max_abs_error=4.163e-17"
+    },
+    {
+      "check": "independent_exact_boundary_llama31_8b_1xH100_fp8_TP1_0",
+      "passed": true,
+      "detail": "max_abs_error=1.318e-16"
+    },
+    {
+      "check": "independent_exact_boundary_llama31_8b_1xH100_fp8_TP1_1",
+      "passed": true,
+      "detail": "max_abs_error=6.939e-17"
+    },
+    {
+      "check": "independent_exact_boundary_llama33_70b_2xH100_fp8_TP2_0",
+      "passed": true,
+      "detail": "max_abs_error=2.082e-17"
+    },
+    {
+      "check": "independent_exact_boundary_llama33_70b_2xH100_fp8_TP2_1",
+      "passed": true,
+      "detail": "max_abs_error=2.776e-17"
+    },
+    {
+      "check": "native_floor_anchor_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "native_floor_anchor_matches_reference",
+      "passed": true,
+      "detail": "max_abs_error=1.11e-16"
+    },
+    {
+      "check": "matlab_filename_haps_allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_logical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_logical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_logical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_new_output_dir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_new_output_dir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_new_output_dir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_new_output_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_new_output_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_new_output_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_require_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_require_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_require_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_sha256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_sha256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_sha256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_read_model_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_read_model_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_read_model_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_communication_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_communication_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_communication_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_export_downstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_export_downstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_export_downstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_export_upstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_export_upstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_export_upstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_haps_export_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_haps_export_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_export_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_plot_release_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_plot_release_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_release_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_plot_serving_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_plot_serving_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_serving_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_plot_thermal_reference_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_plot_thermal_reference_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_thermal_reference_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_plot_workload_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_plot_workload_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_workload_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_exact_binomial_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_exact_binomial_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_exact_binomial_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_exact_static_balanced_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_exact_static_balanced_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_exact_static_balanced_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_find_exact_reliability_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_find_exact_reliability_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_find_exact_reliability_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_find_exact_static_balanced_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_find_exact_static_balanced_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_find_exact_static_balanced_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_exact_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_exact_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_exact_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_mapping_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_mapping_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_mapping_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_payload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_payload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_payload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_build_general_slo_cmax_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_build_general_slo_cmax_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_build_general_slo_cmax_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_serving_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_serving_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_serving_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_serving_crossing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_serving_crossing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_serving_crossing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_load_thermal_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_load_thermal_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_load_thermal_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_report_highload_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_report_highload_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_report_highload_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_thermal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_thermal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_thermal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_thermal_smoke_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_thermal_smoke_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_thermal_smoke_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_thermal_study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_thermal_study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_thermal_study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_search_thermal_speed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_search_thermal_speed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_search_thermal_speed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_thermal_model_session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_thermal_model_session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_thermal_model_session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_thermal_tail_statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_thermal_tail_statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_thermal_tail_statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_check_matlab_code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_check_matlab_code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_check_matlab_code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_package_validation_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_package_validation_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_package_validation_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_record_environment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_record_environment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_record_environment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_record_repository_snapshot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_record_repository_snapshot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_record_repository_snapshot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_monte_carlo_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_monte_carlo_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_monte_carlo_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_test_workload_helpers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_test_workload_helpers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_test_workload_helpers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_validate_release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_validate_release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_validate_release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_validate_stage2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_validate_stage2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_validate_stage2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_classify_workload_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_classify_workload_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_classify_workload_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_load_burstgpt_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_load_burstgpt_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_load_burstgpt_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_load_workload_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_load_workload_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_load_workload_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_workload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_workload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_workload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_summarize_pair_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_summarize_pair_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_summarize_pair_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_full_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_full_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_full_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_reference_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_reference_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_reference_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_run_stage2_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_run_stage2_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_stage2_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_setup_haps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_setup_haps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_setup_haps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename_verify_release_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_code_verify_release_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_verify_release_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_obsolete_production_runners",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

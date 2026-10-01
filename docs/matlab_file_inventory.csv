@@ -1,0 +1,56 @@
+file,lines,primary_function,header
+code/common/haps_allocation.m,20,haps_allocation,% HAPS_ALLOCATION Manuscript sequential-deficit monotonic allocation.
+code/common/haps_logical.m,15,haps_logical,% HAPS_LOGICAL Read logical CSV columns without treating 'false' as true.
+code/common/haps_new_output_dir.m,33,haps_new_output_dir,% HAPS_NEW_OUTPUT_DIR Create a NEW folder; never overwrite packaged inputs.
+code/common/haps_new_output_file.m,29,haps_new_output_file,% HAPS_NEW_OUTPUT_FILE Validate a NEW standalone output path.
+code/common/haps_paths.m,9,haps_paths,"% HAPS_PATHS Resolve paths from this file, never from a user's working folder."
+code/common/haps_require_file.m,8,haps_require_file,% HAPS_REQUIRE_FILE Reject a missing explicit input; never choose a fallback.
+code/common/haps_sha256.m,14,haps_sha256,% HAPS_SHA256 Stream a file into SHA-256 without loading it into memory.
+code/common/read_model_manifest.m,37,read_model_manifest,% READ_MODEL_MANIFEST Read the shipped Simscape model manifest robustly.
+code/communication/run_communication_analysis.m,773,run_communication_analysis,"% RUN_COMMUNICATION_ANALYSIS Downlink activity, link budget and radio power."
+code/figures/build_supplementary_table6.m,29,build_supplementary_table6,% BUILD_SUPPLEMENTARY_TABLE6 Select the seven manuscript Table 6 UA values.
+code/figures/export_downstream_supplementary_tables.m,50,export_downstream_supplementary_tables,% EXPORT_DOWNSTREAM_SUPPLEMENTARY_TABLES Emit numerical sources for SI Tables 9-15.
+code/figures/export_upstream_supplementary_tables.m,50,export_upstream_supplementary_tables,"% EXPORT_UPSTREAM_SUPPLEMENTARY_TABLES SI Tables 1-8, preserving provenance."
+code/figures/haps_export_figure.m,9,e,% HAPS_EXPORT_FIGURE Export a numerical panel and its exact plotted values.
+code/figures/plot_release_figures.m,196,plot_release_figures,% PLOT_RELEASE_FIGURES Render downstream numerical panels from explicit CSVs.
+code/figures/plot_serving_figures.m,53,plot_serving_figures,% PLOT_SERVING_FIGURES Main Fig. 3a-c from the shared NIM/SLO calculation.
+code/figures/plot_thermal_reference_figures.m,40,plot_thermal_reference_figures,% PLOT_THERMAL_REFERENCE_FIGURES Replot archived E2-E4 data; never calls sim.
+code/figures/plot_workload_figures.m,58,plot_workload_figures,% PLOT_WORKLOAD_FIGURES Fig. 2 and SI Fig. 1 from stored or regenerated data.
+code/haps_feasibility/exact_binomial_overload_probability.m,229,exact_binomial_overload_probability,% EXACT_BINOMIAL_OVERLOAD_PROBABILITY
+code/haps_feasibility/exact_static_balanced_overload_probability.m,60,exact_static_balanced_overload_probability,% EXACT_STATIC_BALANCED_OVERLOAD_PROBABILITY
+code/haps_feasibility/find_exact_reliability_threshold.m,177,find_exact_reliability_threshold,% FIND_EXACT_RELIABILITY_THRESHOLD
+code/haps_feasibility/find_exact_static_balanced_threshold.m,134,find_exact_static_balanced_threshold,% FIND_EXACT_STATIC_BALANCED_THRESHOLD
+code/haps_feasibility/run_exact_analysis.m,391,run_exact_analysis,"% RUN_EXACT_ANALYSIS Recompute single, pooled and static Binomial thresholds."
+code/haps_feasibility/run_mapping_sensitivity.m,188,run_mapping_sensitivity,% RUN_MAPPING_SENSITIVITY Exact thresholds using full-precision activity inputs.
+code/haps_feasibility/run_payload_analysis.m,110,run_payload_analysis,% RUN_PAYLOAD_ANALYSIS Integrate exact capacity with payload power and mass.
+code/serving_capacity/build_general_slo_cmax_registry.m,106,build_general_slo_cmax_registry,% BUILD_GENERAL_SLO_CMAX_REGISTRY
+code/serving_capacity/run_serving_analysis.m,73,run_serving_analysis,% RUN_SERVING_ANALYSIS All-SLO extraction plus deterministic sensitivity only.
+code/serving_capacity/serving_crossing.m,24,serving_crossing,% SERVING_CROSSING Reviewed SLO crossing rule; no concurrency extrapolation.
+code/thermal/load_thermal_cases.m,17,load_thermal_cases,% LOAD_THERMAL_CASES Explicit absolute parameters; never apply duct scale twice.
+code/thermal/report_highload_results.m,23,report_highload_results,% REPORT_HIGHLOAD_RESULTS Derive candidate/envelope tables from a final summary.
+code/thermal/run_thermal_point.m,84,run_thermal_point,% RUN_THERMAL_POINT One simulation with complete input and diagnostic logging.
+code/thermal/run_thermal_smoke_test.m,47,run_thermal_smoke_test,% RUN_THERMAL_SMOKE_TEST Replay selected reference and its 25-rpm lower point.
+code/thermal/run_thermal_study.m,39,run_thermal_study,% RUN_THERMAL_STUDY Explicitly gated replay of the archived thermal designs.
+code/thermal/search_thermal_speed.m,70,search_thermal_speed,% SEARCH_THERMAL_SPEED Bracket/refine on the source 25-rpm grid.
+code/thermal/thermal_model_session.m,83,thermal_model_session,% THERMAL_MODEL_SESSION Load exact model files and isolate generated caches.
+code/thermal/thermal_tail_statistics.m,15,thermal_tail_statistics,% THERMAL_TAIL_STATISTICS Preserve the source sample-mean tail estimator.
+code/validation/check_matlab_code.m,15,check_matlab_code,% CHECK_MATLAB_CODE Run the actual MATLAB Code Analyzer on migrated functions.
+code/validation/package_validation_results.m,30,package_validation_results,% PACKAGE_VALIDATION_RESULTS Zip selected generated runs for manual review.
+code/validation/record_environment.m,10,record_environment,% RECORD_ENVIRONMENT Record the actual MATLAB/product environment of a run.
+code/validation/record_repository_snapshot.m,13,record_repository_snapshot,"% RECORD_REPOSITORY_SNAPSHOT Hash code, model and processed-input files in use."
+code/validation/run_monte_carlo_validation.m,153,run_monte_carlo_validation,"% RUN_MONTE_CARLO_VALIDATION Numerical validation only, never primary N95."
+code/validation/test_workload_helpers.m,92,test_workload_helpers,% TEST_WORKLOAD_HELPERS Synthetic checks; does not use or replace BurstGPT.
+code/validation/validate_raw_workload_reproduction.m,67,validate_raw_workload_reproduction,% VALIDATE_RAW_WORKLOAD_REPRODUCTION Fast raw BurstGPT regression (no bootstrap).
+code/validation/validate_release.m,95,validate_release,% VALIDATE_RELEASE Check numerical anchors and cross-file invariants.
+code/validation/validate_stage2.m,99,validate_stage2,% VALIDATE_STAGE2 Fast structural/source checks; does not execute Simulink.
+code/validation/validate_supplementary_table6.m,56,validate_supplementary_table6,% VALIDATE_SUPPLEMENTARY_TABLE6 Check the manuscript-defined 7-row C2 envelope.
+code/workload/classify_workload_pairs.m,24,classify_workload_pairs,% CLASSIFY_WORKLOAD_PAIRS Standardized log1p distances and independent windows.
+code/workload/load_burstgpt_pairs.m,137,load_burstgpt_pairs,% LOAD_BURSTGPT_PAIRS Preserve string IDs and stable within-session pairing.
+code/workload/load_workload_inputs.m,25,load_workload_inputs,% LOAD_WORKLOAD_INPUTS Read the reviewed full-precision A-E baseline inputs.
+code/workload/run_workload_analysis.m,121,run_workload_analysis,% RUN_WORKLOAD_ANALYSIS Raw BurstGPT -> occupancy/activity/bootstrap/mapping.
+code/workload/summarize_pair_activity.m,10,summarize_pair_activity,"% SUMMARIZE_PAIR_ACTIVITY alpha = sum(R) / (sum(R)+sum(max(dt-R,0)))."
+run_full_reproduction.m,57,run_full_reproduction,"% RUN_FULL_REPRODUCTION Recompute deterministic analytical stages, not all tasks."
+run_reference_reproduction.m,39,run_reference_reproduction,"% RUN_REFERENCE_REPRODUCTION Safe reference-based route, with no long sweep."
+run_stage2_validation.m,27,run_stage2_validation,% RUN_STAGE2_VALIDATION First user-side acceptance test for the integrated ZIP.
+setup_haps.m,12,setup_haps,% SETUP_HAPS Add only public code directories to the MATLAB search path.
+verify_release_candidate.m,148,verify_release_candidate,% VERIFY_RELEASE_CANDIDATE Check package integrity without running analysis.

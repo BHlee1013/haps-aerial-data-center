@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "date": "2026-09-30",
+  "passed": true,
+  "checks_total": 35,
+  "checks_passed": 35,
+  "scope": "Final promotion from runtime-validated 1.0.0-rc2. Scientific code/data/model/figure bytes are frozen after validation; documentation, validation evidence, version metadata and checksum manifests are updated. No MATLAB/Simscape execution occurred in the packaging environment.",
+  "checks": [
+    {
+      "check": "rc2_freeze_code",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "rc2_freeze_data_processed",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "rc2_freeze_data_results_reference",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "rc2_freeze_models_simscape",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "rc2_freeze_figures_manuscript",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "rc2_freeze_run_full_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rc2_freeze_run_reference_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rc2_freeze_run_stage2_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rc2_freeze_setup_haps.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rc2_freeze_verify_release_candidate.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rc2_freeze_tools_verify_release_candidate.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_stage2_passed",
+      "passed": true,
+      "detail": "{'passed': '1', 'figures_requested': '1', 'analyzer_messages': '1', 'stage2_checks': '41', 'release_checks': '36', 'serving_comparisons': '200', 'thermal_simulated': '0', 'monte_carlo_run': '0', 'raw_trace_processed': '0'}"
+    },
+    {
+      "check": "final_stage2_41_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_release_36_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_serving_200_comparisons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_analyzer_message_count_one",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_stage2_checks_pass",
+      "passed": true,
+      "detail": "rows=41"
+    },
+    {
+      "check": "table6_exactly_seven_rows",
+      "passed": true,
+      "detail": "[300, 350, 400, 500, 600, 750, 1000]"
+    },
+    {
+      "check": "table6_ua_values",
+      "passed": true,
+      "detail": "[300, 350, 400, 500, 600, 750, 1000]"
+    },
+    {
+      "check": "fig5d_it_1275",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fig5d_fan_10p0081046",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "raw_sha256",
+      "passed": true,
+      "detail": "2299986a07388aa303ec2c41d1131e756db650a39ed6ef9dfe7cc3d7f9a43b8f"
+    },
+    {
+      "check": "raw_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "tau1800_pair_count",
+      "passed": true,
+      "detail": "127205"
+    },
+    {
+      "check": "raw_pk_precision",
+      "passed": true,
+      "detail": "1.11022302462516e-16"
+    },
+    {
+      "check": "raw_alpha_precision",
+      "passed": true,
+      "detail": "5.55111512312578e-17"
+    },
+    {
+      "check": "bootstrap_1000x5",
+      "passed": true,
+      "detail": "5000"
+    },
+    {
+      "check": "tau_600_1800_3600",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "version_1_0_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mit_license_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cc_by_scope_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "publication_ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "zenodo_not_fabricated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "raw_burstgpt_not_bundled",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "python_syntax",
+      "passed": true,
+      "detail": "[]"
+    }
+  ]
+}

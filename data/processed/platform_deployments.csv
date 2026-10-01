@@ -1,0 +1,9 @@
+platform,model_key,m_instances
+Sunglider,llama31_8b_1xH100_fp8_TP1,1
+Sunglider,llama31_8b_1xH200_fp8_TP1,1
+Sunglider,llama31_8b_1xL40S_fp8_TP1,2
+Stratobus,llama31_8b_1xH100_fp8_TP1,3
+Stratobus,llama31_8b_1xH200_fp8_TP1,3
+Stratobus,llama31_8b_1xL40S_fp8_TP1,10
+Stratobus,llama33_70b_2xH100_fp8_TP2,1
+Stratobus,llama33_70b_2xH200_fp8_TP2,1

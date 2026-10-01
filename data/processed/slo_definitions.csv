@@ -1,0 +1,6 @@
+SLO_key,ttft_limit_ms,itl_limit_ms,main_figure
+general,2000,100,True
+ttft_strict,1000,100,True
+itl_strict,2000,40,True
+combined_strict,1000,40,False
+very_strict,500,40,False

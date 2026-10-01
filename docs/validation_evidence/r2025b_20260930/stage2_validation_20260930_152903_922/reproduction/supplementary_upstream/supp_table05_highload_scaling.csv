@@ -1,0 +1,6 @@
+case_label,QIT_W,UA_ext_W_K,A1_scale,duct_scale,rpm,fan_electrical_power_W,fan_overhead_percent
+Selected reference,1100,100,1,1.5,2675,8.6344431797461,0.784949379976918
+Fixed geometry,1275,100,1,1.5,3150,14.4135005674856,1.13047063274397
+Resized rejection,1275,175,1,1.5,2800,9.97562479108314,0.782401944398678
+Fixed geometry,2550,100,1,1.5,NaN,NaN,NaN
+Best evaluated co-design,2550,1000,2.25,1.25,5125,62.6400751125199,2.45647353382431

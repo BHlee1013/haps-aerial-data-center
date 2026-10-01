@@ -1,0 +1,9 @@
+model_key,method,Cmax_E,Cmix,Nharm,SLO_feasible,interpretation
+llama31_8b_1xH100_fp8_TP1,linear,18.9611783066719,184.627839263755,7037.92992671593,1,nominal only; not reliability N95
+llama31_8b_1xH100_fp8_TP1,lower_step,5,131.570741058628,5015.41728305595,1,nominal only; not reliability N95
+llama31_8b_1xH100_fp8_TP1,pchip,20.1699436226862,191.669506438525,7306.35510214403,1,nominal only; not reliability N95
+llama31_8b_1xH100_fp8_TP1,log_linear,15.3777305686455,178.552209815311,6806.32967352901,1,nominal only; not reliability N95
+llama33_70b_2xH100_fp8_TP2,linear,1.62002004975309,58.5290309157897,2231.100249597,1,nominal only; not reliability N95
+llama33_70b_2xH100_fp8_TP2,lower_step,1,42.7385284818206,1629.17342165449,1,nominal only; not reliability N95
+llama33_70b_2xH100_fp8_TP2,pchip,1.67176708065493,63.2809551520002,2412.24145736326,1,nominal only; not reliability N95
+llama33_70b_2xH100_fp8_TP2,log_linear,1.28334627453691,51.2595522141856,1953.99100155692,1,nominal only; not reliability N95

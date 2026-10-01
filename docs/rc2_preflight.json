@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "diagnostic_former_loader_would_raise",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "diagnostic_pairing_eligible_rows",
+      "passed": true,
+      "detail": "199110"
+    },
+    {
+      "check": "diagnostic_missing_after_cleaning",
+      "passed": true,
+      "detail": "1962110"
+    },
+    {
+      "check": "table6_unique_300",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_unique_350",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_unique_400",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_unique_500",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_unique_600",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_unique_750",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_unique_1000",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "table6_seven_rows",
+      "passed": true,
+      "detail": "7"
+    },
+    {
+      "check": "table6_minimum_300",
+      "passed": true,
+      "detail": "rpm=5800, fan=3.56388773002994"
+    },
+    {
+      "check": "table6_minimum_350",
+      "passed": true,
+      "detail": "rpm=5650, fan=3.29381165083971"
+    },
+    {
+      "check": "table6_minimum_400",
+      "passed": true,
+      "detail": "rpm=5550, fan=3.12157098420517"
+    },
+    {
+      "check": "table6_minimum_500",
+      "passed": true,
+      "detail": "rpm=5400, fan=2.87461131876869"
+    },
+    {
+      "check": "table6_minimum_600",
+      "passed": true,
+      "detail": "rpm=5300, fan=2.71746120335632"
+    },
+    {
+      "check": "table6_minimum_750",
+      "passed": true,
+      "detail": "rpm=5225, fan=2.60348518005676"
+    },
+    {
+      "check": "table6_minimum_1000",
+      "passed": true,
+      "detail": "rpm=5125, fan=2.45647353382431"
+    },
+    {
+      "check": "fig5d_vector_points_match_current_reference",
+      "passed": true,
+      "detail": "max_abs_diff_pp=6.69581676e-06"
+    },
+    {
+      "check": "unchanged_inherited_subset_hashes",
+      "passed": true,
+      "detail": "167 files; mismatches=0"
+    }
+  ],
+  "limitations": [
+    "MATLAB was not executed in this editing environment.",
+    "Raw BurstGPT pair/regression acceptance must be run by the author on the original CSV."
+  ]
+}

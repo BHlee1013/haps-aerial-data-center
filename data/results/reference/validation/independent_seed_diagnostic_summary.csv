@@ -1,0 +1,3 @@
+model_key,model_label,num_seeds_requested,num_seeds_exact,historical_manuscript_N95,baseline_seed,baseline_seed_N95,N95_mean,N95_median,N95_std,N95_min,N95_max,N95_range_users,N95_seed_percentile_2p5,N95_seed_percentile_97p5,max_abs_delta_from_manuscript_users,max_abs_delta_from_manuscript_percent,seed_fraction_where_manuscript_N95_passes,P_at_N95_mean,P_at_N95_min,P_at_N95_max
+llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100,20,20,5876,20260826,5876,5873.75,5873.5,5.11833648962753,5866,5888,22,5866,5884.675,12,0.204220558202859,0.45,0.049908,0.04968,0.04999
+llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100,20,20,962,20260826,1044,993.95,1001.5,39.4467996166989,936,1048,112,936,1046.1,86,8.93970893970894,0.75,0.0464825,0.03196,0.05

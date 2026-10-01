@@ -1,0 +1,2420 @@
+{
+  "version": "0.2.3-rc1",
+  "date": "2026-09-30",
+  "passed": true,
+  "checks_total": 482,
+  "checks_passed": 482,
+  "scope": "Packaging, byte preservation, source/evidence alignment, metadata/basic CFF structure and Python syntax. No MATLAB or Simscape execution here.",
+  "checks": [
+    {
+      "check": "freeze/code/common/haps_allocation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/haps_logical.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/haps_new_output_dir.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/haps_new_output_file.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/haps_paths.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/haps_require_file.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/haps_sha256.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/common/read_model_manifest.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/communication/run_communication_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/export_downstream_supplementary_tables.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/export_upstream_supplementary_tables.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/haps_export_figure.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/plot_release_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/plot_serving_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/plot_thermal_reference_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/figures/plot_workload_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/exact_binomial_overload_probability.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/exact_static_balanced_overload_probability.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/find_exact_reliability_threshold.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/find_exact_static_balanced_threshold.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/run_exact_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/run_mapping_sensitivity.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/haps_feasibility/run_payload_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/serving_capacity/build_general_slo_cmax_registry.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/serving_capacity/run_serving_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/serving_capacity/serving_crossing.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/load_thermal_cases.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/report_highload_results.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/run_thermal_point.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/run_thermal_smoke_test.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/run_thermal_study.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/search_thermal_speed.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/thermal_model_session.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/thermal/thermal_tail_statistics.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/check_matlab_code.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/package_validation_results.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/record_environment.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/record_repository_snapshot.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/reference_math.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/run_monte_carlo_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/test_workload_helpers.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/validate_release.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/validate_stage2.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/verify_release.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/validation/verify_stage2.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/workload/classify_workload_pairs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/workload/load_burstgpt_pairs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/workload/load_workload_inputs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/workload/run_workload_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/code/workload/summarize_pair_activity.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/activity_bootstrap_replicates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/activity_statistics.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/engineering_mass_allocations.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/hardware_registry.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/link_scenarios.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/mapping_activity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/mc_seed_protocol.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/nim_benchmark.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/platform_deployments.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/platform_envelopes.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/shared_host_parameters.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/slo_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/thermal_baseline_parameters.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/thermal_cases.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/thermal_reference.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/thermal_smoke_checkpoints.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/workload_occupancy.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/processed/workload_type_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/active_user_pmf.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/auxiliary_parity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/downlink_rates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/input_audit.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/link_budget.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/link_scenarios.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/communication/radio_power.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/activity_quantiles_exact.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/fleet_sizing_exact.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/general_slo_capacity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Stratobus_llama31_8b_1xH100_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Stratobus_llama31_8b_1xH200_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Stratobus_llama31_8b_1xL40S_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Stratobus_llama33_70b_2xH100_fp8_TP2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Stratobus_llama33_70b_2xH200_fp8_TP2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Sunglider_llama31_8b_1xH100_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Sunglider_llama31_8b_1xH200_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_pooled_Sunglider_llama31_8b_1xL40S_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_single_llama31_8b_1xH100_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_single_llama31_8b_1xH200_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_single_llama31_8b_1xL40S_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_single_llama33_70b_2xH100_fp8_TP2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_single_llama33_70b_2xH200_fp8_TP2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_single_llama33_70b_4xH100_fp8_TP4.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Stratobus_llama31_8b_1xH100_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Stratobus_llama31_8b_1xH200_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Stratobus_llama31_8b_1xL40S_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Stratobus_llama33_70b_2xH100_fp8_TP2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Stratobus_llama33_70b_2xH200_fp8_TP2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Sunglider_llama31_8b_1xH100_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Sunglider_llama31_8b_1xH200_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/neighborhoods/neighborhood_static_Sunglider_llama31_8b_1xL40S_fp8_TP1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/platform_assignment_exact.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/primary_overload_curve.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/exact/single_instance_exact.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/fig05d_author_export.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/fig06d_author_export.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/fig06e_author_export.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/latency_curves.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/mapping/mapping_sensitivity_exact.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/payload/configuration_efficiency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/payload/deployment_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/payload/shared_host_scaling.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/serving_budget_contributions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/serving_capacity_by_slo.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/serving_capacity_interpolation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/duct/Fig4c_duct_scale_previous_vs_rerun_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/duct/Fig4c_duct_scale_u_curve_rerun_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/duct/thermal_v5_duct_fine_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/duct/thermal_v5_duct_fine_case_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/duct/thermal_v5_duct_fine_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_a/A_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_a/A_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_b/B_UA_requirements.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_b/B_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_b/B_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c/C_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c/C_low_overhead_candidates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c/C_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c/C_target_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_best_by_UA.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_best_by_UA_duct.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_candidates_le5pct_all.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_candidates_le5pct_preferred.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_combined_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_target_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_top_candidates_all.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/highload_c2/C2_top_candidates_preferred.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/map/Fig4b_v3_dense_12h_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/map/Fig4b_v3_dense_12h_case_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/map/Fig4b_v3_dense_12h_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_case_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_convergence_check.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_convergence_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_environment_corner.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/thermal/robustness/thermal_fig4d_robustness_thermal_margin.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/70b_exact_threshold_neighborhood.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/70b_exact_threshold_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/70b_pooled_mc_curve.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/70b_pooled_mc_per_seed.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/70b_pooled_mc_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/8b_exact_threshold_neighborhood.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/8b_exact_threshold_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/8b_pooled_mc_curve.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/8b_pooled_mc_per_seed.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/8b_pooled_mc_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/independent_seed_diagnostic_frequency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/independent_seed_diagnostic_path_definition.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/independent_seed_diagnostic_per_seed.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/validation/independent_seed_diagnostic_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/workload/mapping_priority_diagnostics.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/workload/mapping_trace_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/data/results/reference/workload/tau_sensitivity_display_reference.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/models/simscape/haps_thermal_map.slx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/models/simscape/haps_thermal_reference.slx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/models/simscape/model_manifest.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/run_full_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/run_reference_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/run_stage2_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freeze/setup_haps.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "author_reference_acceptance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_scope_flags",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "analyzer_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "stage2_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "stage2_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "release_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "release_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "serving_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "serving_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "same_runtime_snapshots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/run_full_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/run_reference_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/run_stage2_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/setup_haps.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_allocation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_logical.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_new_output_dir.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_new_output_file.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_paths.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_require_file.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/haps_sha256.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/common/read_model_manifest.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/communication/run_communication_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/export_downstream_supplementary_tables.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/export_upstream_supplementary_tables.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/haps_export_figure.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/plot_release_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/plot_serving_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/plot_thermal_reference_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/figures/plot_workload_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/exact_binomial_overload_probability.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/exact_static_balanced_overload_probability.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/find_exact_reliability_threshold.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/find_exact_static_balanced_threshold.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/run_exact_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/run_mapping_sensitivity.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/haps_feasibility/run_payload_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/serving_capacity/build_general_slo_cmax_registry.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/serving_capacity/run_serving_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/serving_capacity/serving_crossing.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/load_thermal_cases.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/report_highload_results.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/run_thermal_point.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/run_thermal_smoke_test.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/run_thermal_study.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/search_thermal_speed.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/thermal_model_session.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/thermal/thermal_tail_statistics.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/check_matlab_code.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/package_validation_results.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/record_environment.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/record_repository_snapshot.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/run_monte_carlo_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/test_workload_helpers.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/validate_release.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/validation/validate_stage2.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/workload/classify_workload_pairs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/workload/load_burstgpt_pairs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/workload/load_workload_inputs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/workload/run_workload_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/code/workload/summarize_pair_activity.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/models/simscape/haps_thermal_map.slx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/models/simscape/haps_thermal_reference.slx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/activity_bootstrap_replicates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/activity_statistics.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/engineering_mass_allocations.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/hardware_registry.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/link_scenarios.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/mapping_activity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/mc_seed_protocol.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/nim_benchmark.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/platform_deployments.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/platform_envelopes.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/shared_host_parameters.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/slo_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/thermal_baseline_parameters.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/thermal_cases.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/thermal_reference.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/thermal_smoke_checkpoints.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/workload_occupancy.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "runtime_snapshot/data/processed/workload_type_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_success_2650",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_duration_2650",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_class_2650",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_motor_power_2650",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_comparison_2650",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_success_2675",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_duration_2675",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_class_2675",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_motor_power_2675",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_comparison_2675",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/acceptance_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/code_analyzer.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/repository_snapshot.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/active_user_pmf.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/auxiliary_parity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/downlink_rates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/input_audit.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/link_budget.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/link_scenarios.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/communication/radio_power.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig03d_overload_probability.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig03d_overload_probability_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig03e_nominal_and_reliable_capacity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig03e_nominal_and_reliable_capacity_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05a_activity_and_downlink_rate.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05a_activity_and_downlink_rate_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05b_radiated_downlink_power.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05b_radiated_downlink_power_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05c_radio_electrical_power.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05c_radio_electrical_power_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05d_auxiliary_power_parity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig05d_auxiliary_power_parity_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06a_serving_efficiency.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06a_serving_efficiency_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06b_payload_power_mass.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06b_payload_power_mass_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06b_shared_host_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06c_deployable_instances.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06c_deployable_instances_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06d_platform_capacity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06d_platform_capacity_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06e_fleet_sizing.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/fig06e_fleet_sizing_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supp_fig02_mapping_sensitivity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supp_fig02_mapping_sensitivity_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supp_fig03_assignment_sensitivity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supp_fig03_assignment_sensitivity_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supp_fig04_mc_validation.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supp_fig04_mc_validation_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table09_activity_and_downlink.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table10_hardware_and_exact_capacity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table11_pooled_capacity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table12_assignment_sensitivity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table13_mapping_activity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table14_exact_mapping_sensitivity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/downstream/supplementary_tables/table15_mc_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/serving/fig03a_latency_curves.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/serving/fig03a_latency_curves_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/serving/fig03b_slo_capacity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/serving/fig03b_slo_capacity_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/serving/fig03c_serving_budget.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/serving/fig03c_serving_budget_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/thermal/fig04b_thermal_map.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/thermal/fig04b_thermal_map_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/thermal/fig04c_duct_scale.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/thermal/fig04c_duct_scale_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/thermal/fig04d_thermal_robustness.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/thermal/fig04d_thermal_robustness_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/fig02b_workload_occupancy.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/fig02b_workload_occupancy_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/fig02c_activity_bootstrap.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/fig02c_activity_bootstrap_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/figure_manifest.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/supp_fig01_activity_vs_tau.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/figures/workload/supp_fig01_activity_vs_tau_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/matlab_environment.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/payload/configuration_efficiency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/payload/deployment_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/payload/shared_host_scaling.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/capacity_by_slo.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/capacity_interpolation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/general_slo_capacity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/latency_curves.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/nominal_interpolation_sensitivity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/reference_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/serving/serving_budget_contributions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table09_activity_and_downlink.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table10_hardware_and_exact_capacity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table11_pooled_capacity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table12_assignment_sensitivity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table13_mapping_activity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table14_exact_mapping_sensitivity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_downstream/table15_mc_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table01_workload_statistics.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table02_tau_DISPLAY_ROUNDED.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table03_general_slo.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table04_nominal_interpolation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table05_highload_scaling.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table06_codesign_envelope.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table07_environment_corners.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/supplementary_upstream/supp_table08_duration_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/reproduction/validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/stage2_validation_20260930_152903_922/stage2_checks.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/case_parameters.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/matlab_environment.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/point_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/repository_snapshot.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/P_delta_pipe.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/P_delta_total.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/P_fan_shaft.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/T_delta_pipe.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/chamber_T.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/m_dot.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/omega_fan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/radiator_T.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/server_T.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/tau_fan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2650_rpm/v_dot.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/P_delta_pipe.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/P_delta_total.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/P_fan_shaft.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/T_delta_pipe.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/chamber_T.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/m_dot.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/omega_fan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/radiator_T.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/server_T.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/tau_fan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence/thermal_smoke_20260930_153018_795/trace_2675_rpm/v_dot.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/main/Fig1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/artwork/Fig1ab.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/artwork/Fig1c.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/main/Fig2.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig2a.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig2b.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig2c.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/main/Fig3.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig3a.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig3b.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig3c.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig3d.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig3e.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/main/Fig4.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/artwork/Fig4a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig4b.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig4c.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig4d.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/main/Fig5.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig5a.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig5b.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig5c.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig5d.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/main/Fig6.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig6a.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig6b.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig6c.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig6d.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure/figures/manuscript/panels/Fig6e.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "consistent_version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_invented_license_doi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cff_basic_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "license_notice_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_release_filenames_ascii",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_bytecode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "python_syntax/tools/verify_release_candidate.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "python_syntax/code/validation/reference_math.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "python_syntax/code/validation/verify_release.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "python_syntax/code/validation/verify_stage2.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown_link/README.md/docs/publication_checklist.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown_link/README.md/docs/validation_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown_link/README.md/docs/reproduction_guide.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown_link/README.md/data/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown_link/README.md/docs/input_provenance.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown_link/README.md/docs/third_party_sources.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_allocation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_logical.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_new_output_dir.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_new_output_file.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_paths.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_require_file.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_sha256.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/read_model_manifest.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_communication_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/export_downstream_supplementary_tables.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/export_upstream_supplementary_tables.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/haps_export_figure.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/plot_release_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/plot_serving_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/plot_thermal_reference_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/plot_workload_figures.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/exact_binomial_overload_probability.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/exact_static_balanced_overload_probability.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/find_exact_reliability_threshold.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/find_exact_static_balanced_threshold.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_exact_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_mapping_sensitivity.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_payload_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/build_general_slo_cmax_registry.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_serving_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/serving_crossing.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/load_thermal_cases.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/report_highload_results.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_thermal_point.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_thermal_smoke_test.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_thermal_study.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/search_thermal_speed.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/thermal_model_session.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/thermal_tail_statistics.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/check_matlab_code.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/package_validation_results.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/record_environment.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/record_repository_snapshot.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_monte_carlo_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/test_workload_helpers.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/validate_release.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/validate_stage2.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/classify_workload_pairs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/load_burstgpt_pairs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/load_workload_inputs.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_workload_analysis.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/summarize_pair_activity.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_full_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_reference_reproduction.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/run_stage2_validation.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/setup_haps.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_filename/verify_release_candidate.m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "python_regressions",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

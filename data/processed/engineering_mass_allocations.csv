@@ -1,0 +1,8 @@
+model_key,engineering_mass_kg,mass_model
+llama31_8b_1xH100_fp8_TP1,16.30625,DGX H100/H200 system-equivalent allocation
+llama31_8b_1xH200_fp8_TP1,16.30625,DGX H100/H200 system-equivalent allocation
+llama31_8b_1xL40S_fp8_TP1,31.4,Supermicro shared-host reference: 29.7 kg + 1.7 kg per L40S
+llama33_70b_2xH100_fp8_TP2,32.6125,DGX H100/H200 system-equivalent allocation
+llama33_70b_2xH200_fp8_TP2,32.6125,DGX H100/H200 system-equivalent allocation
+llama33_70b_4xH100_fp8_TP4,65.225,DGX H100/H200 system-equivalent allocation
+llama33_70b_8xA100_bf16_TP8,123.16,DGX A100 system-equivalent allocation

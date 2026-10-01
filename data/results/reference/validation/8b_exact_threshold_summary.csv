@@ -1,0 +1,2 @@
+model_key,SLO_key,Cmix,Nharm,reliability_threshold,N95_exact,P_overload_at_N95,P_overload_at_N95_percent,N_first_infeasible,P_overload_at_N95_plus_1,P_overload_at_N95_plus_1_percent,N_A_at_N95,N_B_at_N95,N_C_at_N95,N_D_at_N95,N_E_at_N95
+llama31_8b_1xH100_fp8_TP1,general,184.627839263755,7037.92992671594,0.05,5876,0.0499204223975437,4.99204223975437,5877,0.0501723462273809,5.01723462273809,3984,690,45,1129,28

@@ -1,0 +1,8 @@
+model_key,display_label,IT_power_kW,allocated_mass_kg
+llama31_8b_1xH100_fp8_TP1,8B / 1xH100,1.275,16.306
+llama31_8b_1xH200_fp8_TP1,8B / 1xH200,1.275,16.306
+llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,1.100,31.400
+llama33_70b_2xH100_fp8_TP2,70B / 2xH100,2.550,32.612
+llama33_70b_2xH200_fp8_TP2,70B / 2xH200,2.550,32.612
+llama33_70b_4xH100_fp8_TP4,70B / 4xH100,5.100,65.225
+llama33_70b_8xA100_bf16_TP8,70B / 8xA100,6.500,123.160

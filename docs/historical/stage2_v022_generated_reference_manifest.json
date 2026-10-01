@@ -1,0 +1,72 @@
+[
+  {
+    "file": "data/results/reference/communication/downlink_rates.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 4,
+    "columns": 24,
+    "sha256": "e5239de9fde66bf5c1150156b2dec29c207a2867e60409ab0d1a3d85b72f7127"
+  },
+  {
+    "file": "data/results/reference/communication/active_user_pmf.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 6869,
+    "columns": 6,
+    "sha256": "9082a2616dce533b74940a5b56760798825d61e6101bf48e13482328814739ff"
+  },
+  {
+    "file": "data/results/reference/communication/input_audit.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 2,
+    "columns": 11,
+    "sha256": "10ace112d5db83ec8c3d446df89a1ac285ea9b869c2d8a78ae9cb5a6a1e9120c"
+  },
+  {
+    "file": "data/results/reference/communication/link_scenarios.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 6,
+    "columns": 5,
+    "sha256": "418ded507e6190bbc04b258f8042542109771c16c4c7401768cfeee645ace217"
+  },
+  {
+    "file": "data/results/reference/communication/link_budget.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 288,
+    "columns": 32,
+    "sha256": "f07fe9d5f1ebd85d908faa4af6313e8499b91511ed160c4a3cf1e8427a792f73"
+  },
+  {
+    "file": "data/results/reference/communication/radio_power.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 2880,
+    "columns": 41,
+    "sha256": "c62116e17c9b08dc9bdeca32afbb2a348ccb3896604e95d2b5a2c006fc1dc1c9"
+  },
+  {
+    "file": "data/results/reference/communication/auxiliary_parity.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 3600,
+    "columns": 31,
+    "sha256": "56ca1c4edf207893c85e89afe822a977e39cb69089f97c6938fb4759f8e7b082"
+  },
+  {
+    "file": "data/results/reference/payload/configuration_efficiency.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 7,
+    "columns": 11,
+    "sha256": "026e208f62b4fcf51a8409ac4a989cdfae61603bb62c1e2de8d53eadbaeb97bf"
+  },
+  {
+    "file": "data/results/reference/payload/deployment_limits.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 14,
+    "columns": 19,
+    "sha256": "e8e0108badbac6aa995e3bac73a2da78caa3cf17aa1fc7550d55aba4f737a496"
+  },
+  {
+    "file": "data/results/reference/payload/shared_host_scaling.csv",
+    "generation": "Python independent transcription of migrated MATLAB baseline equations; not a MATLAB execution",
+    "rows": 10,
+    "columns": 4,
+    "sha256": "8b65ca08825edf40026267528d79e6f6fb9f37dd52e27b8b766188717d33297c"
+  }
+]

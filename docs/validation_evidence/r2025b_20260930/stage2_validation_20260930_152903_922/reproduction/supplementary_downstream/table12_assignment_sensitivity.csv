@@ -1,0 +1,5 @@
+platform,model_key,display_label,m_instances,NHAPS95_static_exact,linear_mN95_exact,NHAPS95_pooled_exact,P_static_at_linear_mN95
+Sunglider,llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,2,2451,2674,3507,0.0893473899756977
+Stratobus,llama31_8b_1xH100_fp8_TP1,8B / 1xH100,3,16684,17628,19104,0.133600785364064
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,3,20781,21735,23144,0.142121717835671
+Stratobus,llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,10,9506,13370,22517,0.357024361641086

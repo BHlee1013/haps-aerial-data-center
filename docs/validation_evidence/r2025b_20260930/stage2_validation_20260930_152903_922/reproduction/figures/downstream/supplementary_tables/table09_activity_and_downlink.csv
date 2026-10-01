@@ -1,0 +1,3 @@
+model_key,display_label,N95_exact,mean_active,P50_active,P95_active,P99_active,P95_active_fraction_percent,P95_rate_low_Mbps,P95_rate_high_Mbps,all_active_rate_low_Mbps,all_active_rate_high_Mbps,mean_active_crosscheck
+llama31_8b_1xH100_fp8_TP1,8B / 1xH100,5876,154.141450851278,154,174,183,2.96119809394146,0.16704,0.25056,5.64096,8.46144,154.141450851278
+llama33_70b_2xH100_fp8_TP2,70B / 2xH100,991,26.0061627569799,26,34,38,3.43087790110999,0.03264,0.04896,0.95136,1.42704,26.0061627569799

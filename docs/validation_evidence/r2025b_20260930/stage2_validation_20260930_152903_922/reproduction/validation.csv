@@ -1,0 +1,37 @@
+check,passed,detail
+single_configurations,1,Six feasible exact configurations found
+single_thresholds,1,Current exact N95 values
+single_crossings,1,Adjacent exact threshold crossing
+serving_efficiency,1,Exact N95 divided by IT power
+population_1,1,Sequential-deficit allocation agrees
+population_2,1,Sequential-deficit allocation agrees
+population_3,1,Sequential-deficit allocation agrees
+population_4,1,Sequential-deficit allocation agrees
+population_5,1,Sequential-deficit allocation agrees
+population_6,1,Sequential-deficit allocation agrees
+traffic_rows_1,1,Two byte/token endpoints
+traffic_quantiles_1,1,Current exact-population quantiles
+traffic_mean_1,1,PMF mean agrees with exact activity reference
+traffic_rows_2,1,Two byte/token endpoints
+traffic_quantiles_2,1,Current exact-population quantiles
+traffic_mean_2,1,PMF mean agrees with exact activity reference
+traffic_conversion,1,100-ms ITL with protocol factor three
+radio_power,1,No double multiplication of total PA power
+auxiliary_parity,1,Fan plus radio divided by IT
+parity_reference,1,Final 1.275-kW normalization
+scaled_fan,1,Stored thermal module ratio scaled to 1.275 kW
+radiated_floor,1,60-km 0-dB receiver-floor stress result
+fleet_ceiling,1,Compute-dimensioning ceiling rule
+linear_reference,1,Linear reference is not pooled capacity
+pooled_crossings,1,Exact pooled adjacent crossings
+static_crossings,1,Exact static adjacent crossings
+l40s_binding,1,Uncapped resource bounds kept separate from the 10-GPU cap
+deployment_count,1,Eight feasible platform/configuration rows
+deployment_1,1,Payload count agrees with exact assignment calculation
+deployment_2,1,Payload count agrees with exact assignment calculation
+deployment_3,1,Payload count agrees with exact assignment calculation
+deployment_4,1,Payload count agrees with exact assignment calculation
+deployment_5,1,Payload count agrees with exact assignment calculation
+deployment_6,1,Payload count agrees with exact assignment calculation
+deployment_7,1,Payload count agrees with exact assignment calculation
+deployment_8,1,Payload count agrees with exact assignment calculation

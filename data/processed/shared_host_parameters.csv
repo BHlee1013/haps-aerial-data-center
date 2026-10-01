@@ -1,0 +1,2 @@
+model_key,host_mass_kg,host_power_kW,gpu_mass_kg,gpu_power_kW,max_gpu_count,interpretation
+llama31_8b_1xL40S_fp8_TP1,29.7,0.75,1.7,0.35,10,adopted shared-host engineering allocation; no above-cap hardware claim

@@ -1,0 +1,15 @@
+platform,model_key,display_label,SLO_feasible,uncapped_mass_bound,uncapped_IT_power_bound,uncapped_aux_power_bound,host_gpu_cap,IT_only_instances,deployable_instances,binding_constraint,deployed_mass_kg,deployed_IT_power_W,deployed_fan_power_W,radio_reserve_W,total_payload_power_W,linear_mN95_reference,NHAPS95_pooled_exact,NHAPS95_static_exact
+Sunglider,llama31_8b_1xH100_fp8_TP1,8B / 1xH100,1,4,1,1,Inf,1,1,power,16.30625,1275,10.0081045947057,4.98346320149746,1289.9915677962,5876,5876,5876
+Sunglider,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,1,4,1,1,Inf,1,1,power,16.30625,1275,10.0081045947057,4.98346320149746,1289.9915677962,7245,7245,7245
+Sunglider,llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,1,26,2,2,10,2,2,power,33.1,1450,11.3817660096653,4.98346320149746,1466.36522921116,2674,3507,2451
+Sunglider,llama33_70b_2xH100_fp8_TP2,70B / 2xH100,1,2,0,0,Inf,0,0,power,0,0,0,4.98346320149746,0,NaN,NaN,NaN
+Sunglider,llama33_70b_2xH200_fp8_TP2,70B / 2xH200,1,2,0,0,Inf,0,0,power,0,0,0,4.98346320149746,0,NaN,NaN,NaN
+Sunglider,llama33_70b_4xH100_fp8_TP4,70B / 4xH100,1,1,0,0,Inf,0,0,power,0,0,0,4.98346320149746,0,NaN,NaN,NaN
+Sunglider,llama33_70b_8xA100_bf16_TP8,70B / 8xA100,0,0,0,0,Inf,0,0,slo_infeasible,0,0,0,4.98346320149746,0,NaN,NaN,NaN
+Stratobus,llama31_8b_1xH100_fp8_TP1,8B / 1xH100,1,15,3,3,Inf,3,3,power,48.91875,3825,30.0243137841171,4.98346320149746,3860.00777698561,17628,19104,16684
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,1,15,3,3,Inf,3,3,power,48.91875,3825,30.0243137841171,4.98346320149746,3860.00777698561,21735,23144,20781
+Stratobus,llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,1,129,12,12,10,10,10,server_gpu_cap,46.7,4250,33.360348649019,4.98346320149746,4288.34381185052,13370,22517,9506
+Stratobus,llama33_70b_2xH100_fp8_TP2,70B / 2xH100,1,7,1,1,Inf,1,1,power,32.6125,2550,20.0162091894114,4.98346320149746,2574.99967239091,991,991,991
+Stratobus,llama33_70b_2xH200_fp8_TP2,70B / 2xH200,1,7,1,1,Inf,1,1,power,32.6125,2550,20.0162091894114,4.98346320149746,2574.99967239091,936,936,936
+Stratobus,llama33_70b_4xH100_fp8_TP4,70B / 4xH100,1,3,0,0,Inf,0,0,power,0,0,0,4.98346320149746,0,NaN,NaN,NaN
+Stratobus,llama33_70b_8xA100_bf16_TP8,70B / 8xA100,0,2,0,0,Inf,0,0,slo_infeasible,0,0,0,4.98346320149746,0,NaN,NaN,NaN

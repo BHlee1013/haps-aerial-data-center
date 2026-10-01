@@ -1,63 +1,20 @@
-# ============================================================
-# MATLAB / Simulink temporary and generated files
-# ============================================================
+# Generated analysis runs are distinct from committed reference data.
+/data/results/generated/
+/figures/generated/
+/data/raw/
 
-# Autosave / backup files
+# Local or tool-generated files.
 *.asv
-*.m~
-*.autosave
-*.slx.r*
-*.mdl.r*
-*.bak
-
-# MATLAB protected files
-*.p
-
-# Compiled MEX files
-*.mex*
-
-# Packaged apps/toolboxes
-*.mlappinstall
-*.mltbx
-
-# Deployable archives
-*.ctf
-
-# Generated folders
-slprj/
-sccprj/
-codegen/
-helpsearch*/
-
-# Simulink cache
 *.slxc
-
-# MATLAB Drive metadata
-.MATLABDriveTag
-
-
-# ============================================================
-# Operating system / editor files
-# ============================================================
-
-# Windows
-Thumbs.db
-Desktop.ini
-
-# macOS
+slprj/
+*.autosave
+*.m~
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
 .DS_Store
+Thumbs.db
 
-
-# ============================================================
-# Project-specific exclusions
-# ============================================================
-
-# Raw external datasets
-data/raw/
-
-# Temporary files
-temp/
-tmp/
-
-# Log files
-*.log
+# Do not ignore all CSV, FIG, PDF or MAT files globally.
+# Future final reference exports may intentionally include these formats.

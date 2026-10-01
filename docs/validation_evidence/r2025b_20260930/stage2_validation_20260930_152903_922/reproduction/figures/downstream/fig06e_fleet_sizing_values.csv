@@ -1,0 +1,9 @@
+platform,best_model_key,best_display_label,best_exact_NHAPS95,target_user_equivalents,minimum_active_HAPS_count
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,23144,10000,1
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,23144,25000,2
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,23144,50000,3
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,23144,100000,5
+Sunglider,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,7245,10000,2
+Sunglider,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,7245,25000,4
+Sunglider,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,7245,50000,7
+Sunglider,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,7245,100000,14

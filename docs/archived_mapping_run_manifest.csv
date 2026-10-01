@@ -1,0 +1,2 @@
+workload_share_file,cmax_registry_file,mapping_alpha_file,overload_threshold,reliability_method
+Fig2b_request_vs_elapsed_share_values.csv,exact_reliability_full_outputs\01_general_slo_cmax_registry.csv,exact_reliability_mapping_alpha_fullprecision.csv,0.05,deterministic exact-under-model independent-Binomial reliability

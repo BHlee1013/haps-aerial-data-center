@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying author-created data/figures, please cite the public v1.0.0 release. A Zenodo DOI has not yet been assigned; use the repository URL until the archival DOI is available."
+type: software
+title: "HAPS aerial data center: cross-layer LLM inference reproduction code"
+version: "1.0.0"
+date-released: 2026-09-30
+license: MIT
+authors:
+  - family-names: Lee
+    given-names: Byeongheon
+  - family-names: Ko
+    given-names: Young-Chai
+repository-code: "https://github.com/BHlee1013/haps-aerial-data-center"
+abstract: "Reproduction software, author-generated reference data, manuscript figures and validation evidence for Direct wireless large language model inference from high-altitude platform stations under payload constraints. The public v1.0.0 package includes the validated raw BurstGPT session-pairing path, 1000-replicate day-level bootstrap, corrected seven-row Supplementary Table 6 export, corrected 1.275-kW Fig. 5d artwork, downstream reference reproduction, and the previously validated two-point Simscape boundary test."
+keywords:
+  - HAPS
+  - non-terrestrial networks
+  - large language models
+  - exact reliability
+  - payload feasibility

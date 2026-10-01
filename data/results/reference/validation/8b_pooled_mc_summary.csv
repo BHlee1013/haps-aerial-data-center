@@ -1,0 +1,2 @@
+model_key,SLO_key,Cmix,Nharm,reliability_threshold,N_range_lower,N_range_upper,num_seeds,snapshots_per_seed,total_snapshots_per_N,exact_reference_N95,N95_pooled_MC,N95_pooled_minus_exact,P_overload_at_N95,P_overload_at_N95_percent,SE_at_N95,P_overload_at_N95_plus_1,P_overload_at_N95_plus_1_percent,SE_at_N95_plus_1
+llama31_8b_1xH100_fp8_TP1,general,184.627839263755,7037.92992671594,0.05,5861,5891,20,100000,2000000,5876,5872,-4,0.049741,4.9741,0.000153731637796193,0.050013,5.0013,0.000154129328537758

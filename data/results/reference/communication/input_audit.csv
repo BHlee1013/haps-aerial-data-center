@@ -1,0 +1,3 @@
+model_key,SLO_key,N95_from_capacity,sum_registered_mix_N95,max_abs_alpha_diff_vs_Fig2,max_abs_pk_diff_vs_Fig2,mean_active_exact,mean_active_theory,mean_active_abs_diff,population_source,population_method
+llama31_8b_1xH100_fp8_TP1,general,5876,5876,0,0,154.14145085127785,154.14145085127785,0,single_instance_exact.csv N95_exact and N_A...N_E,deterministic independent-Binomial exact-under-model
+llama33_70b_2xH100_fp8_TP2,general,991,991,0,0,26.006162756979897,26.006162756979897,0,single_instance_exact.csv N95_exact and N_A...N_E,deterministic independent-Binomial exact-under-model

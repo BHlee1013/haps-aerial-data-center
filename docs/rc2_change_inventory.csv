@@ -1,0 +1,11 @@
+file,status,reason
+code/workload/load_burstgpt_pairs.m,modified,Exclude unusable Session IDs from pairing by default; audit counts; strict mode retained.
+code/workload/run_workload_analysis.m,modified,Document explicit missing-session policy.
+code/validation/test_workload_helpers.m,modified,Add missing/empty/whitespace Session-ID edge-case tests.
+code/validation/validate_raw_workload_reproduction.m,new,"Raw trace regression against 127,205 pairs and full-precision p_k/alpha_k references."
+code/figures/build_supplementary_table6.m,new,Shared seven-row manuscript Table 6 selector.
+code/figures/export_upstream_supplementary_tables.m,modified,Use seven-row Table 6 selector instead of copying ten-row exploratory envelope.
+code/validation/validate_supplementary_table6.m,new,Validate seven rows against the 84-case C2 summary.
+code/validation/validate_stage2.m,modified,Include Table 6 validation and expanded workload unit tests.
+figures/manuscript/panels/Fig5d.pdf,modified,Author-corrected 1.275-kW normalization.
+figures/manuscript/main/Fig5.pdf,modified,Corrected composite cropped from author-supplied manuscript.

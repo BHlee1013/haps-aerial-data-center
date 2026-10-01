@@ -1,0 +1,7 @@
+Q_server_W,fan_overhead_target_pct,min_UA_ext_W_K,corresponding_A2_m2,min_feasible_rpm,min_fan_elec_power_W
+1275,1,125,2.5,2975,12.0602411192126
+1275,2,100,2,3150,14.4135005674856
+1275,5,100,2,3150,14.4135005674856
+2550,1,NaN,NaN,NaN,NaN
+2550,2,NaN,NaN,NaN,NaN
+2550,5,NaN,NaN,NaN,NaN

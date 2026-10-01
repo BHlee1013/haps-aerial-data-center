@@ -1,0 +1,7 @@
+link_scenario,scenario_class,implementation_gap_dB,snr_floor_dB,scenario_note
+shannon_baseline,lower_bound,0,-Inf,Ideal Shannon payload-bearing reference; 5-dB link margin is still applied
+impl_gap_3dB,implementation_gap,3,-Inf,Shannon-required SNR plus implementation-gap sensitivity
+impl_gap_6dB,implementation_gap,6,-Inf,Shannon-required SNR plus implementation-gap sensitivity
+snr_floor_m10dB,snr_floor_stress_test,0,-10,Stress test: required SNR cannot fall below the specified floor
+snr_floor_m5dB,snr_floor_stress_test,0,-5,Stress test: required SNR cannot fall below the specified floor
+snr_floor_0dB,snr_floor_stress_test,0,0,Stress test: required SNR cannot fall below the specified floor

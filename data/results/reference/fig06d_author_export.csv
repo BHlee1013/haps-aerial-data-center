@@ -1,0 +1,9 @@
+platform,model_key,display_label,m_instances,single_N95_exact,linear_mN95_exact,NHAPS95_pooled_exact,pooled_gain_vs_linear_percent
+Sunglider,llama31_8b_1xH100_fp8_TP1,8B / 1xH100,1,5876,5876,5876,0
+Sunglider,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,1,7245,7245,7245,0
+Sunglider,llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,2,1337,2674,3507,31.151832460733
+Stratobus,llama31_8b_1xH100_fp8_TP1,8B / 1xH100,3,5876,17628,19104,8.37304288631722
+Stratobus,llama31_8b_1xH200_fp8_TP1,8B / 1xH200,3,7245,21735,23144,6.482631700023
+Stratobus,llama31_8b_1xL40S_fp8_TP1,8B / 1xL40S,10,1337,13370,22517,68.4143605086013
+Stratobus,llama33_70b_2xH100_fp8_TP2,70B / 2xH100,1,991,991,991,0
+Stratobus,llama33_70b_2xH200_fp8_TP2,70B / 2xH200,1,936,936,936,0

@@ -1,0 +1,8 @@
+# Preserve release-checksummed bytes on every platform.
+# Do not automatically normalize archived MATLAB/CSV line endings at checkout.
+* -text
+*.slx binary
+*.pdf binary
+*.png binary
+*.fig binary
+*.mat binary

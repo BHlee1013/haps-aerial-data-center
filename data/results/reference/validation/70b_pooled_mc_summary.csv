@@ -1,0 +1,2 @@
+model_key,SLO_key,Cmix,Nharm,reliability_threshold,N_range_lower,N_range_upper,num_seeds,snapshots_per_seed,total_snapshots_per_N,exact_reference_N95,N95_pooled_MC,N95_pooled_minus_exact,P_overload_at_N95,P_overload_at_N95_percent,SE_at_N95,P_overload_at_N95_plus_1,P_overload_at_N95_plus_1_percent,SE_at_N95_plus_1
+llama33_70b_2xH100_fp8_TP2,general,58.5290309157897,2231.100249597,0.05,976,1006,20,100000,2000000,991,991,0,0.04999,4.999,0.000154095749292445,0.0500475,5.00475,0.000154179680476628

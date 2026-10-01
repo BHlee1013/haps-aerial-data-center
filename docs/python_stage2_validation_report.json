@@ -1,0 +1,2579 @@
+{
+  "scope": "Python arithmetic/source consistency and static inspection only; MATLAB/Simulink/Simscape not executed",
+  "passed": true,
+  "checks_passed": 514,
+  "checks_total": 514,
+  "error": null,
+  "checks": [
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama31_8b_1xH100_fp8_TP1_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_linear_llama33_70b_2xH100_fp8_TP2_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama31_8b_1xH100_fp8_TP1_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_lower_step_llama33_70b_2xH100_fp8_TP2_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama31_8b_1xH100_fp8_TP1_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_pchip_llama33_70b_2xH100_fp8_TP2_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama31_8b_1xH100_fp8_TP1_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_general_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_general_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_general_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_general_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_general_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_ttft_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_itl_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_combined_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_very_strict_A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_very_strict_B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_very_strict_C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_very_strict_D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "crossing_log_linear_llama33_70b_2xH100_fp8_TP2_very_strict_E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_case_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_missing_numeric_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wall_relation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "radiation_relation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "absolute_area_feasibility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_Q_server",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_P_air_internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_T_ambient",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_h2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_A2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_G_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "map_source_Q_solar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_q_fan_nom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_L_pipe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_T_sky",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_duct_area_scale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A_pipe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_D_h_pipe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_w_fan_ref_rpm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_dp_fan_nom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A1_scale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_q_fan_max0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_Q_solar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_k_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_Q_server",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_T_air_internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_eta_fan_nom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_m_HX",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_t_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_dp_fan_max0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_h2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_cp_HX",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_epsilon_rad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A_rad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_G_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_T_HX0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A_res1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_P_air_internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_k_rad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_A_res3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_T_ambient",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_T_server_limit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_source_T_chamber_limit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duct_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_q_fan_nom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_L_pipe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_T_sky",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_duct_area_scale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_h1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A_pipe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_D_h_pipe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_w_fan_ref_rpm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_dp_fan_nom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A1_scale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_q_fan_max0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_Q_solar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_k_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_Q_server",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_T_air_internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_eta_fan_nom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_m_HX",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_t_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_dp_fan_max0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_h2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_cp_HX",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_epsilon_rad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A_rad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_G_wall",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_T_HX0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A_res1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_P_air_internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_k_rad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_A_res3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_T_ambient",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_T_server_limit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_source_T_chamber_limit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "robustness_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_a_heat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_a_external_UA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_a_duct_area",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_a_hydraulic_diameter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_b_heat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_b_external_UA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_b_duct_area",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_b_hydraulic_diameter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c_heat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c_external_UA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c_duct_area",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c_hydraulic_diameter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c_internal_area",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c2_heat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c2_external_UA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c2_duct_area",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c2_hydraulic_diameter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "highload_c2_internal_area",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_zip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_stop_time",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_signal_server_T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_signal_chamber_T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_signal_radiator_T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_map.slx_signal_P_fan_shaft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_zip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_stop_time",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_signal_server_T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_signal_chamber_T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_signal_radiator_T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "haps_thermal_reference.slx_signal_P_fan_shaft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "smoke_2650",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "smoke_2675",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "smoke_adjacent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_Fig4c_duct_scale_previous_vs_rerun_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_Fig4c_duct_scale_u_curve_rerun_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_v5_duct_fine_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_v5_duct_fine_case_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_v5_duct_fine_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_A_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_A_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_B_UA_requirements.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_B_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_B_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C_low_overhead_candidates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C_target_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_best_by_UA.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_best_by_UA_duct.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_candidates_le5pct_all.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_candidates_le5pct_preferred.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_combined_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_target_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_top_candidates_all.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_C2_top_candidates_preferred.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_Fig4b_v3_dense_12h_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_Fig4b_v3_dense_12h_case_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_Fig4b_v3_dense_12h_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_all_rpm_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_case_definitions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_convergence_check.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_convergence_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_environment_corner.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_summary.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_csv_thermal_fig4d_robustness_thermal_margin.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_setup_haps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_setup_haps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_setup_haps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_reference_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_reference_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_reference_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_verify_release_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_verify_release_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_verify_release_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_full_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_full_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_full_reproduction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_stage2_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_stage2_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_stage2_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_exact_static_balanced_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_exact_static_balanced_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_exact_static_balanced_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_payload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_payload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_payload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_find_exact_reliability_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_find_exact_reliability_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_find_exact_reliability_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_find_exact_static_balanced_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_find_exact_static_balanced_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_find_exact_static_balanced_threshold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_exact_binomial_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_exact_binomial_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_exact_binomial_overload_probability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_exact_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_exact_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_exact_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_mapping_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_mapping_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_mapping_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_communication_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_communication_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_communication_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_thermal_smoke_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_thermal_smoke_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_thermal_smoke_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_thermal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_thermal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_thermal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_thermal_study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_thermal_study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_thermal_study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_thermal_model_session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_thermal_model_session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_thermal_model_session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_search_thermal_speed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_search_thermal_speed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_search_thermal_speed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_thermal_tail_statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_thermal_tail_statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_thermal_tail_statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_report_highload_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_report_highload_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_report_highload_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_load_thermal_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_load_thermal_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_load_thermal_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_classify_workload_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_classify_workload_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_classify_workload_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_summarize_pair_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_summarize_pair_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_summarize_pair_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_workload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_workload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_workload_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_load_burstgpt_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_load_burstgpt_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_load_burstgpt_pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_load_workload_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_load_workload_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_load_workload_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_serving_crossing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_serving_crossing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_serving_crossing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_build_general_slo_cmax_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_build_general_slo_cmax_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_build_general_slo_cmax_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_serving_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_serving_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_serving_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_logical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_logical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_logical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_read_model_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_read_model_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_read_model_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_require_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_require_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_require_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_new_output_dir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_new_output_dir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_new_output_dir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_sha256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_sha256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_sha256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_new_output_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_new_output_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_new_output_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_test_workload_helpers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_test_workload_helpers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_test_workload_helpers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_record_repository_snapshot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_record_repository_snapshot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_record_repository_snapshot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_package_validation_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_package_validation_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_package_validation_results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_validate_release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_validate_release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_validate_release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_validate_stage2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_validate_stage2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_validate_stage2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_record_environment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_record_environment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_record_environment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_run_monte_carlo_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_run_monte_carlo_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_run_monte_carlo_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_check_matlab_code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_check_matlab_code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_check_matlab_code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_plot_workload_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_plot_workload_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_workload_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_plot_serving_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_plot_serving_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_serving_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_plot_release_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_plot_release_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_release_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_haps_export_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_haps_export_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_haps_export_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_export_downstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_export_downstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_export_downstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_export_upstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_export_upstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_export_upstream_supplementary_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matlab_primary_plot_thermal_reference_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "english_plot_thermal_reference_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_local_paths_plot_thermal_reference_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_execute_default_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "failed_refinement_not_infeasible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "thermal_no_base_assignment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mc_default_smoke",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_primary_mc_search",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

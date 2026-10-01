@@ -1,0 +1,201 @@
+method,model_key,model_label,type_key,SLO_key,SLO_label,ttft_limit_ms,itl_limit_ms,Cmax_TTFT,Cmax_ITL,Cmax,bottleneck
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,general,General: 2 s / 100 ms,2000,100,203.434831727424,250,203.434831727424,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,general,General: 2 s / 100 ms,2000,100,164.018620384903,250,164.018620384903,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,general,General: 2 s / 100 ms,2000,100,18.9611783066719,250,18.9611783066719,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,165.333815570916,250,165.333815570916,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,174.19818392251,250,174.19818392251,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,125.735517136791,250,125.735517136791,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,4.23460068832823,250,4.23460068832823,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,203.434831727424,250,203.434831727424,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,164.018620384903,137.755847953216,137.755847953216,ITL
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,18.9611783066719,250,18.9611783066719,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,250,250,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,165.333815570916,250,165.333815570916,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,174.19818392251,250,174.19818392251,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,125.735517136791,137.755847953216,125.735517136791,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,4.23460068832823,250,4.23460068832823,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,212.398518729526,250,212.398518729526,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,71.2516850566678,250,71.2516850566678,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,154.779049083805,250,154.779049083805,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,14.9086038449417,137.755847953216,14.9086038449417,TTFT
+linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,1.52464702853581,250,1.52464702853581,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,general,General: 2 s / 100 ms,2000,100,224.506561055208,250,224.506561055208,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,general,General: 2 s / 100 ms,2000,100,168.630541548626,200,168.630541548626,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,general,General: 2 s / 100 ms,2000,100,58.1369192402964,250,58.1369192402964,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,general,General: 2 s / 100 ms,2000,100,1.62002004975309,250,1.62002004975309,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,207.509008702747,250,207.509008702747,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,157.692375004102,200,157.692375004102,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,51.1553756489345,250,51.1553756489345,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,0,250,0,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,171.634615384615,171.634615384615,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,224.506561055208,128.299120234604,128.299120234604,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,168.630541548626,187.456445993031,168.630541548626,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,58.1369192402964,26.4895138226883,26.4895138226883,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,1.62002004975309,17.8236316246742,1.62002004975309,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,171.634615384615,171.634615384615,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,207.509008702747,128.299120234604,128.299120234604,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,157.692375004102,187.456445993031,157.692375004102,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,51.1553756489345,26.4895138226883,26.4895138226883,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,0,17.8236316246742,0,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,250,171.634615384615,171.634615384615,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,177.550312283137,128.299120234604,128.299120234604,ITL
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,152.22329173184,187.456445993031,152.22329173184,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,3.66504680911884,26.4895138226883,3.66504680911884,TTFT
+linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,0,17.8236316246742,0,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,general,General: 2 s / 100 ms,2000,100,200,250,200,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,general,General: 2 s / 100 ms,2000,100,150,250,150,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,general,General: 2 s / 100 ms,2000,100,5,250,5,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,150,250,150,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,150,250,150,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,100,250,100,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,1,250,1,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,200,250,200,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,150,100,100,ITL
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,5,250,5,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,250,250,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,150,250,150,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,150,250,150,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,100,100,100,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,1,250,1,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,200,250,200,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,50,250,50,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,150,250,150,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,5,100,5,TTFT
+lower_step,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,1,250,1,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,general,General: 2 s / 100 ms,2000,100,200,250,200,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,general,General: 2 s / 100 ms,2000,100,150,200,150,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,general,General: 2 s / 100 ms,2000,100,50,250,50,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,general,General: 2 s / 100 ms,2000,100,1,250,1,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,200,250,200,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,150,200,150,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,50,250,50,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,0,250,0,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,150,150,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,200,100,100,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,150,150,150,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,50,25,25,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,1,5,1,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,150,150,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,200,100,100,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,150,150,150,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,50,25,25,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,0,5,0,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,250,150,150,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,150,100,100,ITL
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,150,150,150,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,1,25,1,TTFT
+lower_step,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,0,5,0,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,general,General: 2 s / 100 ms,2000,100,205.993584595899,250,205.993584595899,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,general,General: 2 s / 100 ms,2000,100,176.758653386386,250,176.758653386386,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,general,General: 2 s / 100 ms,2000,100,20.1699436226862,250,20.1699436226862,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,167.357681604283,250,167.357681604283,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,185.838859891254,250,185.838859891254,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,133.04826407359,250,133.04826407359,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,3.92561981295809,250,3.92561981295809,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,205.993584595899,250,205.993584595899,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,176.758653386386,135.244278157877,135.244278157877,ITL
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,20.1699436226862,250,20.1699436226862,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,250,250,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,167.357681604283,250,167.357681604283,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,185.838859891254,250,185.838859891254,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,133.04826407359,135.244278157877,133.04826407359,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,3.92561981295809,250,3.92561981295809,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,213.235613122241,250,213.235613122241,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,70.6179127714533,250,70.6179127714533,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,160.117859435259,250,160.117859435259,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,11.3154953707657,135.244278157877,11.3154953707657,TTFT
+pchip,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,1.20141652399082,250,1.20141652399082,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,general,General: 2 s / 100 ms,2000,100,241.195631141585,250,241.195631141585,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,general,General: 2 s / 100 ms,2000,100,186.734761672297,200,186.734761672297,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,general,General: 2 s / 100 ms,2000,100,68.5634832062984,250,68.5634832062984,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,general,General: 2 s / 100 ms,2000,100,1.67176708065493,250,1.67176708065493,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,217.46023987232,250,217.46023987232,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,169.019630896671,200,169.019630896671,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,53.0719609150911,250,53.0719609150911,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,0,250,0,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,170.291649479882,170.291649479882,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,241.195631141585,126.992716974125,126.992716974125,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,186.734761672297,185.261977177683,185.261977177683,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,68.5634832062984,26.4516155895109,26.4516155895109,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,1.67176708065493,12.5671319997342,1.67176708065493,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,170.291649479882,170.291649479882,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,217.46023987232,126.992716974125,126.992716974125,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,169.019630896671,185.261977177683,169.019630896671,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,53.0719609150911,26.4516155895109,26.4516155895109,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,0,12.5671319997342,0,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,250,170.291649479882,170.291649479882,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,184.498558242139,126.992716974125,126.992716974125,ITL
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,156.123661849587,185.261977177683,156.123661849587,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,2.97715411272467,26.4516155895109,2.97715411272467,TTFT
+pchip,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,0,12.5671319997342,0,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,general,General: 2 s / 100 ms,2000,100,203.089461202843,250,203.089461202843,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,general,General: 2 s / 100 ms,2000,100,162.600034517938,250,162.600034517938,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,general,General: 2 s / 100 ms,2000,100,15.3777305686455,250,15.3777305686455,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,163.835122406023,250,163.835122406023,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,172.407863321703,250,172.407863321703,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,123.207172869733,250,123.207172869733,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,3.6747027492852,250,3.6747027492852,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,250,250,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,203.089461202843,250,203.089461202843,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,162.600034517938,135.821804481706,135.821804481706,ITL
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,15.3777305686455,250,15.3777305686455,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,250,250,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,163.835122406023,250,163.835122406023,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,172.407863321703,250,172.407863321703,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,123.207172869733,135.821804481706,123.207172869733,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,3.6747027492852,250,3.6747027492852,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,211.378498144871,250,211.378498144871,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,67.1301932716452,250,67.1301932716452,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,154.181769682136,250,154.181769682136,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,11.0984121307431,135.821804481706,11.0984121307431,TTFT
+log_linear,llama31_8b_1xH100_fp8_TP1,Llama 3.1 8B | 1xH100 | FP8 TP1,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,1.23503178253241,250,1.23503178253241,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,general,General: 2 s / 100 ms,2000,100,250,250,250,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,general,General: 2 s / 100 ms,2000,100,223.114922854167,250,223.114922854167,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,general,General: 2 s / 100 ms,2000,100,166.972436879404,200,166.972436879404,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,general,General: 2 s / 100 ms,2000,100,55.9704939442571,250,55.9704939442571,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,general,General: 2 s / 100 ms,2000,100,1.28334627453691,250,1.28334627453691,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,250,250,250,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,206.815916207099,250,206.815916207099,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,156.787982343467,200,156.787982343467,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,50.8072932858771,250,50.8072932858771,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,ttft_strict,TTFT-stringent: 1 s / 100 ms,1000,100,0,250,0,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,250,169.883534978312,169.883534978312,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,223.114922854167,125.795340281647,125.795340281647,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,166.972436879404,186.074336839065,166.972436879404,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,55.9704939442571,26.0540679973,26.0540679973,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,itl_strict,ITL-stringent: 2 s / 40 ms,2000,40,1.28334627453691,14.0325531859681,1.28334627453691,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,250,169.883534978312,169.883534978312,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,206.815916207099,125.795340281647,125.795340281647,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,156.787982343467,186.074336839065,156.787982343467,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,50.8072932858771,26.0540679973,26.0540679973,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,combined_strict,Combined stringent: 1 s / 40 ms,1000,40,0,14.0325531859681,0,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,A,very_strict,Very stringent: 0.5 s / 40 ms,500,40,250,169.883534978312,169.883534978312,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,B,very_strict,Very stringent: 0.5 s / 40 ms,500,40,175.765358073601,125.795340281647,125.795340281647,ITL
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,C,very_strict,Very stringent: 0.5 s / 40 ms,500,40,151.931128707689,186.074336839065,151.931128707689,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,D,very_strict,Very stringent: 0.5 s / 40 ms,500,40,2.92211258660496,26.0540679973,2.92211258660496,TTFT
+log_linear,llama33_70b_2xH100_fp8_TP2,Llama 3.3 70B | 2xH100 | FP8 TP2,E,very_strict,Very stringent: 0.5 s / 40 ms,500,40,0,14.0325531859681,0,TTFT

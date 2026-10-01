@@ -1,0 +1,9 @@
+{
+  "purpose": "Independent arithmetic audit only",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "matlab_executed": false,
+  "simscape_executed": false
+}

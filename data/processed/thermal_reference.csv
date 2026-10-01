@@ -1,0 +1,2 @@
+reference_IT_power_W,fan_electrical_power_W,motor_efficiency,duct_area_scale,fan_speed_rpm,interpretation
+1100,8.6344431797461,0.85,1.5,2675,stored single-module thermal reference; scaling requires resizing or replication

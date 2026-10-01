@@ -1,0 +1,6 @@
+Type,center_input_tokens,center_output_tokens,request_min,request_max,response_min,response_max
+A,200,200,100,400.0,80,400.0
+B,1000,1000,600,1400.0,600,1400.0
+C,500,2000,100,1500.0,800,4000.0
+D,5000,500,3000,8000.0,200,900.0
+E,20000,2000,8000,1000000000.0,280,1000000000.0

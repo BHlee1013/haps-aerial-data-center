@@ -1,0 +1,19 @@
+{
+  "version": "0.2.2-stage2",
+  "stage": "integrated user-validation candidate; second MATLAB acceptance hotfix applied",
+  "new_matlab_runtime_executed_here": false,
+  "new_simscape_runtime_executed_here": false,
+  "prior_user_environment": "R2025b; Stage-1 reference route passed; Stage-2 validation reached manifest parsing before hotfix",
+  "raw_burstgpt_included": false,
+  "model_count": 2,
+  "thermal_case_entries": 1158,
+  "final_license_approved": false,
+  "doi_assigned": false,
+  "matlab_file_count": 51,
+  "thermal_acceptance_points_rpm": [2650, 2675],
+  "thermal_full_grid_autostarts": false,
+  "python_baseline_checks": 525,
+  "python_stage2_checks": 508,
+  "python_checks_passed": true,
+  "matlab_hotfix_reason": "R2025b/Korean Windows run showed locale-dependent model_manifest.csv delimiter inference; v0.2.2 uses explicit line parsing and immutable onCleanup capture"
+}

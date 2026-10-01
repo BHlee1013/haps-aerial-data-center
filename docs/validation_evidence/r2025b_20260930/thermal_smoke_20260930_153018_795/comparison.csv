@@ -1,0 +1,3 @@
+case_id,rpm,expected_feasible,server_mean_tail_K,chamber_mean_tail_K,fan_electrical_power_W,sim_success,actual_feasible,power_relative_error,server_error_K,chamber_error_K,reproduction_eligible,passed
+robustness_0001,2650,0,322.971699985001,300.132690129286,8.38111004632756,1,0,1.47553736631289e-11,8.11013478596578e-09,5.99919758315082e-09,1,1
+robustness_0001,2675,1,322.340421394146,299.496038005097,8.6344431797461,1,1,2.07529301478094e-11,-1.29262559767085e-07,-9.82021219897433e-08,1,1
